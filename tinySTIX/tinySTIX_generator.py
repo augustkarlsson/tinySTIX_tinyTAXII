@@ -66,7 +66,7 @@ with open("properties.json", 'r') as f:
     property_name_mapping = json.load(f)
     with open("values.json", 'r') as f:
         property_name_value_mapping = json.load(f)
-        with open("testSTIX.json", "r") as f:
+        with open("stix_data.json", "r") as f:
             stix_data = json.load(f)
             
             # Measure the size of the original STIX data
@@ -81,18 +81,19 @@ with open("properties.json", 'r') as f:
 
             # Measure the size of the CBOR-encoded data
             cbor_size = len(cbor_data)
-            print(f"CBOR Size: {cbor_size} bytes")
+            #print(f"CBOR Size: {cbor_size} bytes")
 
             mapped_data = map_keys_and_values_to_int(stix_data, property_name_mapping, property_name_value_mapping)
             mapped_size = len(str(mapped_data).encode('utf-8'))
-            print(f"Mapped Size: {mapped_size} bytes")
-            print(json.dumps(mapped_data, indent=4))
+            #print(f"Mapped Size: {mapped_size} bytes")
+            print(mapped_data, "\n\n")
 
             # # Convert to CBOR format
             cbor_data = cbor2.dumps(mapped_data)
             # # Measure the size of the CBOR-encoded data
             cbor_size = len(cbor_data)
-            print(f"CBOR Size After Integer Conversion: {cbor_size} bytes")
+            print(cbor_data)
+            print(f"\n\nCBOR Size After Integer Conversion: {cbor_size} bytes")
 
             mapped_data = cbor2.loads(cbor_data)
             unmapped_data = map_keys_to_str(mapped_data, property_name_mapping)

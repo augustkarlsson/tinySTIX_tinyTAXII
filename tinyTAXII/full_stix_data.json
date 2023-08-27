@@ -1,0 +1,1222 @@
+{
+    "type": "bundle",
+    "id": "bundle--0165e5d7-51e6-4c2e-a382-1dd1e706f7bb",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T09:33:28.000Z",
+            "modified": "2021-03-12T09:33:28.000Z",
+            "name": "CIRCL",
+            "identity_class": "organization"
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--0165e5d7-51e6-4c2e-a382-1dd1e706f7bb",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T09:33:28.000Z",
+            "modified": "2021-03-12T09:33:28.000Z",
+            "name": "OSINT - DearCry ransomware (abusing Exchange Server)",
+            "published": "2021-03-12T09:34:22Z",
+            "object_refs": [
+                "observed-data--2bc0505c-6566-416f-9f4b-2a689d78edb8",
+                "windows-registry-key--2bc0505c-6566-416f-9f4b-2a689d78edb8",
+                "indicator--eebfaac3-846d-4883-a01e-706600c5aab2",
+                "indicator--a6e83ff7-f43c-400a-9f85-6f856e537ff2",
+                "indicator--33d7df07-f728-435d-a4c9-c6dc3bfc58a6",
+                "indicator--659fb6ca-6a34-42ae-a798-554150d716dd",
+                "indicator--b785388f-7f42-4382-97ab-f5bb8e586793",
+                "indicator--1bf257cf-b1f9-457b-a1d5-ffc08402fe9f",
+                "indicator--385ab9dd-f6f1-435c-a94c-796f27a3475f",
+                "indicator--ea27a275-6569-4c5c-89ff-2ba423b7ac22",
+                "indicator--70785d0d-f6b8-471f-9c3d-a4ee4ae7511c",
+                "indicator--f9dccc8f-cb0c-43b6-9ff2-fff4711aace3",
+                "indicator--b8e0ffb1-7c06-4b51-8f4d-e6d32df77fb4",
+                "indicator--b3f915e3-c214-4f6b-8e5e-0129044c6bab",
+                "indicator--8a3d4a95-0ede-4778-91c3-e25d87b6ff88",
+                "indicator--1fd1f2ff-d962-438a-a263-639317387e0b",
+                "indicator--49c945e7-bda4-4dbe-97fa-49c5d9bc244f",
+                "indicator--e7b12b41-978f-44a0-94aa-f55ed363999c",
+                "indicator--487375ca-a928-4e80-a1d4-01a7a2bddb38",
+                "indicator--4b7f848c-acaf-44c3-878c-3e49aecf8b2e",
+                "indicator--ec2dd593-27fe-42aa-a23d-e603c8d4ca0d",
+                "indicator--baa0ad8b-693e-4e5f-b539-3754c9fdedf6",
+                "indicator--02ae1c30-289a-4d98-8336-d9d18d6afa51",
+                "indicator--4ca3f931-8ea7-4de3-bd4a-98047b0d9324",
+                "indicator--42011bba-0ed6-4c7b-b31e-ad3d49df36a5",
+                "indicator--590576c4-12cf-4306-a9e4-c5182a85a245",
+                "indicator--bc1997bb-17e3-4bfb-833b-1b274e2a82cb",
+                "indicator--5e91ee04-575a-4615-b6fd-53ad330d644f",
+                "indicator--0e8c43b8-bd08-4b5b-8aaf-19b0a8d92d22",
+                "indicator--0043684b-9df2-4546-8f05-ef32aac85874",
+                "indicator--334f2ae3-8046-4b5b-9ff2-0c19fa8a4b48",
+                "indicator--0365e572-3f31-4bc9-aede-e30469650995",
+                "indicator--72a56236-6e66-4b46-855b-223aeb029f5b",
+                "indicator--a720a45a-cc2b-4e27-9e06-224f5dd76644",
+                "indicator--6a5beae0-0706-480e-9340-b5cb8672e518",
+                "indicator--43df033b-306b-4455-bfaf-74eb97a2ceb8",
+                "indicator--819aa63f-c38b-4f23-a333-01eab7b6cd40",
+                "indicator--2f1d3fa9-b509-4417-b456-d56c5e1639d0",
+                "x-misp-object--c917ee01-9118-4758-8b0e-a540ac4c5c88",
+                "indicator--c54f901a-2381-43a4-bb4f-42d1f09a1e4a",
+                "x-misp-object--846c7daa-dc4a-4990-9b33-a914529c88f8",
+                "indicator--56459f25-ccd4-4b89-91de-773056bab60f",
+                "x-misp-object--525e04d3-3258-4f44-85b5-74e76f4ed55e",
+                "indicator--fe33598b-e5ff-4af5-ae8b-47fed4de0d4e",
+                "x-misp-object--d8bfca0a-f8de-45ed-9a5f-eb88fefe808b",
+                "relationship--52415fc4-8a3a-4685-b82e-ba7bd51a3fbe",
+                "relationship--1623afe0-b686-436f-b32d-c6e9d5046b6f",
+                "relationship--330ac619-af7d-43b9-a9ad-b8c6208fd90a"
+            ],
+            "labels": [
+                "Threat-Report",
+                "misp:tool=\"MISP-STIX-Converter\"",
+                "type:OSINT",
+                "osint:lifetime=\"perpetual\"",
+                "misp-galaxy:mitre-attack-pattern=\"Data Destruction - T1485\"",
+                "misp-galaxy:mitre-attack-pattern=\"Data Encrypted for Impact - T1486\"",
+                "estimative-language:likelihood-probability=\"very-likely\"",
+                "estimative-language:confidence-in-analytic-judgment=\"high\"",
+                "admiralty-scale:source-reliability=\"b\"",
+                "admiralty-scale:information-credibility=\"2\"",
+                "osint:source-type=\"microblog-post\""
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "observed-data",
+            "spec_version": "2.1",
+            "id": "observed-data--2bc0505c-6566-416f-9f4b-2a689d78edb8",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "first_observed": "2021-03-12T08:45:48Z",
+            "last_observed": "2021-03-12T08:45:48Z",
+            "number_observed": 1,
+            "object_refs": [
+                "windows-registry-key--2bc0505c-6566-416f-9f4b-2a689d78edb8"
+            ],
+            "labels": [
+                "misp:type=\"regkey\"",
+                "misp:category=\"Persistence mechanism\""
+            ]
+        },
+        {
+            "type": "windows-registry-key",
+            "spec_version": "2.1",
+            "id": "windows-registry-key--2bc0505c-6566-416f-9f4b-2a689d78edb8",
+            "key": "Files\\Microsoft\\Exchange"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--eebfaac3-846d-4883-a01e-706600c5aab2",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'Server\\\\V15\\\\FrontEnd\\\\HttpProxy\\\\owa\\\\auth\\\\logout.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a6e83ff7-f43c-400a-9f85-6f856e537ff2",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'Server\\\\V15\\\\FrontEnd\\\\HttpProxy\\\\owa\\\\auth\\\\one.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--33d7df07-f728-435d-a4c9-c6dc3bfc58a6",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'Server\\\\V15\\\\FrontEnd\\\\HttpProxy\\\\owa\\\\auth\\\\one1.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--659fb6ca-6a34-42ae-a798-554150d716dd",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'Server\\\\V15\\\\FrontEnd\\\\HttpProxy\\\\owa\\\\auth\\\\shel.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b785388f-7f42-4382-97ab-f5bb8e586793",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'Server\\\\V15\\\\FrontEnd\\\\HttpProxy\\\\owa\\\\auth\\\\shel2.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--1bf257cf-b1f9-457b-a1d5-ffc08402fe9f",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'Server\\\\V15\\\\FrontEnd\\\\HttpProxy\\\\owa\\\\auth\\\\shel90.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--385ab9dd-f6f1-435c-a94c-796f27a3475f",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'Server\\\\V15\\\\FrontEnd\\\\HttpProxy\\\\owa\\\\auth\\\\a.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ea27a275-6569-4c5c-89ff-2ba423b7ac22",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'Server\\\\V15\\\\FrontEnd\\\\HttpProxy\\\\owa\\\\auth\\\\default.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--70785d0d-f6b8-471f-9c3d-a4ee4ae7511c",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\shell.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--f9dccc8f-cb0c-43b6-9ff2-fff4711aace3",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\Server.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b8e0ffb1-7c06-4b51-8f4d-e6d32df77fb4",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\aspnet_client.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b3f915e3-c214-4f6b-8e5e-0129044c6bab",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\aspnet_iisstart.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--8a3d4a95-0ede-4778-91c3-e25d87b6ff88",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\aspnet_pages.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--1fd1f2ff-d962-438a-a263-639317387e0b",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\aspnet_www.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--49c945e7-bda4-4dbe-97fa-49c5d9bc244f",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\default1.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e7b12b41-978f-44a0-94aa-f55ed363999c",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\errorcheck.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--487375ca-a928-4e80-a1d4-01a7a2bddb38",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\iispage.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--4b7f848c-acaf-44c3-878c-3e49aecf8b2e",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\s.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ec2dd593-27fe-42aa-a23d-e603c8d4ca0d",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\session.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--baa0ad8b-693e-4e5f-b539-3754c9fdedf6",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\system_web\\\\log.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--02ae1c30-289a-4d98-8336-d9d18d6afa51",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\xclkmcfldfi948398430fdjkfdkj.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--4ca3f931-8ea7-4de3-bd4a-98047b0d9324",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\xx.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--42011bba-0ed6-4c7b-b31e-ad3d49df36a5",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\discover.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--590576c4-12cf-4306-a9e4-c5182a85a245",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\HttpProxy.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--bc1997bb-17e3-4bfb-833b-1b274e2a82cb",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\OutlookEN.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--5e91ee04-575a-4615-b6fd-53ad330d644f",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\supp0rt.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0e8c43b8-bd08-4b5b-8aaf-19b0a8d92d22",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:name = 'Server\\\\V15\\\\FrontEnd\\\\HttpProxy\\\\OAB\\\\log.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0043684b-9df2-4546-8f05-ef32aac85874",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:name = 'Server\\\\V15\\\\FrontEnd\\\\HttpProxy\\\\owa\\\\auth\\\\log.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--334f2ae3-8046-4b5b-9ff2-0c19fa8a4b48",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:name = 'Server\\\\V15\\\\FrontEnd\\\\HttpProxy\\\\owa\\\\auth\\\\logg.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0365e572-3f31-4bc9-aede-e30469650995",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:name = 'Server\\\\V15\\\\FrontEnd\\\\HttpProxy\\\\owa\\\\auth\\\\Current\\\\google.log']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--72a56236-6e66-4b46-855b-223aeb029f5b",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:name = 'C:\\\\inetpub\\\\wwwroot\\\\aspnet_client\\\\google.log']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a720a45a-cc2b-4e27-9e06-224f5dd76644",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:name = 'Server\\\\V15\\\\FrontEnd\\\\HttpProxy\\\\owa\\\\auth\\\\google.log']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--6a5beae0-0706-480e-9340-b5cb8672e518",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:name = '\\\\%PUBLIC\\\\%\\\\opera\\\\opera_browser.exe']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--43df033b-306b-4455-bfaf-74eb97a2ceb8",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:hashes.SHA256 = 'e044d9f2d0f1260c3f4a543a1e67f33fcac265be114a1b135fd575b860d2b8c6']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--819aa63f-c38b-4f23-a333-01eab7b6cd40",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:hashes.SHA256 = '2b9838da7edb0decd32b086e47a31e8f5733b5981ad8247a2f9508e232589bff']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--2f1d3fa9-b509-4417-b456-d56c5e1639d0",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:49.000Z",
+            "modified": "2021-03-12T08:45:49.000Z",
+            "pattern": "[file:hashes.SHA256 = 'feb3e6d30ba573ba23f3bd1291ca173b7879706d1fe039c34d53a4fdcdf33ede']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:49Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--c917ee01-9118-4758-8b0e-a540ac4c5c88",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:47:37.000Z",
+            "modified": "2021-03-12T08:47:37.000Z",
+            "labels": [
+                "misp:name=\"microblog\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "link",
+                    "object_relation": "archive",
+                    "value": "https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Sample%20Data/Feeds/MSTICIoCs-ExchangeServerVulnerabilitiesDisclosedMarch2021.csv",
+                    "category": "External analysis",
+                    "uuid": "547e8ead-a5cf-45e7-87fb-1657fccf4e13"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "archive",
+                    "value": "https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Sample%20Data/Feeds/MSTICIoCs-ExchangeServerVulnerabilitiesDisclosedMarch2021.json",
+                    "category": "External analysis",
+                    "uuid": "e77e3518-e613-4893-8ea0-4f2a5e3566fd"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "type",
+                    "value": "Twitter",
+                    "category": "Other",
+                    "uuid": "b7d9750f-a60e-41a3-b01b-d86f27e78ac4"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "post",
+                    "value": "We've updated our IoC feed to include hashes for #DearCry ransomware\r\n\r\nAccess the feed here:\r\n\r\nJSON: https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Sample%20Data/Feeds/MSTICIoCs-ExchangeServerVulnerabilitiesDisclosedMarch2021.json\r\n\r\nCSV: https://raw.githubusercontent.com/Azure/Azure-Se",
+                    "category": "Other",
+                    "uuid": "aebf2aec-c108-4ef9-80b4-e94ab02602f8"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "state",
+                    "value": "Informative",
+                    "category": "Other",
+                    "uuid": "8e666a82-666c-4062-997b-403895a09b30"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "verified-username",
+                    "value": "Unverified",
+                    "category": "Other",
+                    "uuid": "36991467-d111-449f-97de-dfddcb130938"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "microblog"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c54f901a-2381-43a4-bb4f-42d1f09a1e4a",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:48:08.000Z",
+            "modified": "2021-03-12T08:48:08.000Z",
+            "pattern": "[file:hashes.MD5 = 'cdda3913408c4c46a6c575421485fa5b' AND file:hashes.SHA1 = '56eec7392297e7301159094d7e461a696fe5b90f' AND file:hashes.SHA256 = 'e044d9f2d0f1260c3f4a543a1e67f33fcac265be114a1b135fd575b860d2b8c6']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:48:08Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--846c7daa-dc4a-4990-9b33-a914529c88f8",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:48:08.000Z",
+            "modified": "2021-03-12T08:48:08.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2021-03-12T08:23:23+00:00",
+                    "category": "Other",
+                    "uuid": "89392aa6-f741-4651-ac58-9087c6d9f1f4"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/e044d9f2d0f1260c3f4a543a1e67f33fcac265be114a1b135fd575b860d2b8c6/detection/f-e044d9f2d0f1260c3f4a543a1e67f33fcac265be114a1b135fd575b860d2b8c6-1615537403",
+                    "category": "Payload delivery",
+                    "uuid": "1660120c-4d4b-4e7d-b972-6c02945cec53"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "33/68",
+                    "category": "Payload delivery",
+                    "uuid": "67ad0ceb-473a-4604-ad34-529e4ef137bd"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--56459f25-ccd4-4b89-91de-773056bab60f",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:48:09.000Z",
+            "modified": "2021-03-12T08:48:09.000Z",
+            "pattern": "[file:hashes.MD5 = 'c6eeb14485d93f4e30fb79f3a57518fc' AND file:hashes.SHA1 = 'b7d99521348d319f57d2b2ba7045295fc99cf6a7' AND file:hashes.SHA256 = 'feb3e6d30ba573ba23f3bd1291ca173b7879706d1fe039c34d53a4fdcdf33ede']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:48:09Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--525e04d3-3258-4f44-85b5-74e76f4ed55e",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:48:09.000Z",
+            "modified": "2021-03-12T08:48:09.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2021-03-12T08:28:27+00:00",
+                    "category": "Other",
+                    "uuid": "27892d2b-fe0a-4efd-9610-45e9d64ab4bf"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/feb3e6d30ba573ba23f3bd1291ca173b7879706d1fe039c34d53a4fdcdf33ede/detection/f-feb3e6d30ba573ba23f3bd1291ca173b7879706d1fe039c34d53a4fdcdf33ede-1615537707",
+                    "category": "Payload delivery",
+                    "uuid": "08e03713-7e15-4afb-af95-c621caa6b004"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "34/67",
+                    "category": "Payload delivery",
+                    "uuid": "0a7a9678-69db-4d38-84ee-f3a8187afd88"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--fe33598b-e5ff-4af5-ae8b-47fed4de0d4e",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:48:09.000Z",
+            "modified": "2021-03-12T08:48:09.000Z",
+            "pattern": "[file:hashes.MD5 = '0e55ead3b8fd305d9a54f78c7b56741a' AND file:hashes.SHA1 = 'f7b084e581a8dcea450c2652f8058d93797413c3' AND file:hashes.SHA256 = '2b9838da7edb0decd32b086e47a31e8f5733b5981ad8247a2f9508e232589bff']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:48:09Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--d8bfca0a-f8de-45ed-9a5f-eb88fefe808b",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:48:09.000Z",
+            "modified": "2021-03-12T08:48:09.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2021-03-12T08:28:47+00:00",
+                    "category": "Other",
+                    "uuid": "352701e7-8d7b-4934-9a8f-e72fc25966a3"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/2b9838da7edb0decd32b086e47a31e8f5733b5981ad8247a2f9508e232589bff/detection/f-2b9838da7edb0decd32b086e47a31e8f5733b5981ad8247a2f9508e232589bff-1615537727",
+                    "category": "Payload delivery",
+                    "uuid": "e061d577-1ad8-4024-be7b-f65a599e48ae"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "37/69",
+                    "category": "Payload delivery",
+                    "uuid": "1ae336dd-7832-408c-8237-6b7c5a50e451"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--52415fc4-8a3a-4685-b82e-ba7bd51a3fbe",
+            "created": "2021-03-12T08:48:09.000Z",
+            "modified": "2021-03-12T08:48:09.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--c54f901a-2381-43a4-bb4f-42d1f09a1e4a",
+            "target_ref": "x-misp-object--846c7daa-dc4a-4990-9b33-a914529c88f8"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1623afe0-b686-436f-b32d-c6e9d5046b6f",
+            "created": "2021-03-12T08:48:09.000Z",
+            "modified": "2021-03-12T08:48:09.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--56459f25-ccd4-4b89-91de-773056bab60f",
+            "target_ref": "x-misp-object--525e04d3-3258-4f44-85b5-74e76f4ed55e"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--330ac619-af7d-43b9-a9ad-b8c6208fd90a",
+            "created": "2021-03-12T08:48:09.000Z",
+            "modified": "2021-03-12T08:48:09.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--fe33598b-e5ff-4af5-ae8b-47fed4de0d4e",
+            "target_ref": "x-misp-object--d8bfca0a-f8de-45ed-9a5f-eb88fefe808b"
+        },
+        {
+            "type": "marking-definition",
+            "spec_version": "2.1",
+            "id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+            "created": "2017-01-20T00:00:00.000Z",
+            "definition_type": "tlp",
+            "name": "TLP:WHITE",
+            "definition": {
+                "tlp": "white"
+            }
+        }
+    ]
+}

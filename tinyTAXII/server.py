@@ -59,8 +59,8 @@ class Hello(PlugtestResource):
     options = {'content_format': 0}
 
     expected_options = {} # Uri-Path is stripped by the site
-
-    message = "Hello World!"
+    with open("stix_data.json") as f:
+        message = f.read()
 
 Hello1 = Hello # same, just registered with the site for protected access
 

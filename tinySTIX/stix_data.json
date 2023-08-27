@@ -1,0 +1,24 @@
+{
+    "type": "bundle",
+    "id": "bundle--0165e5d7-51e6-4c2e-a382-1dd1e706f7bb",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--eebfaac3-846d-4883-a01e-706600c5aab2",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2021-03-12T08:45:48.000Z",
+            "modified": "2021-03-12T08:45:48.000Z",
+            "pattern": "[file:name = 'Server\\\\V15\\\\FrontEnd\\\\HttpProxy\\\\owa\\\\auth\\\\logout.aspx']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-03-12T08:45:48Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ]
+        }
+    ]
+}
