@@ -1,0 +1,89 @@
+august@august-XPS-13-9370 ~/S/E/M/i/t/r/data (main)> python3 split_data.py urlhaus/stix_data/ urlhaus/extracted_data/ -v
+Read file urlhaus/stix_data/0a135e36-5287-40fb-bdd7-b4ca2f2eaf4a.json.stix
+__________________________________________________________________
+Filtered out the following 5385 keys with corresponding values:
+
+__________________________________________________________________
+Wrote 10542 objects to file urlhaus/extracted_data/0a135e36-5287-40fb-bdd7-b4ca2f2eaf4a.txt
+==================================================================
+Read file urlhaus/stix_data/0a67ca83-d7ac-4c8c-9312-f73b50921843.json.stix
+__________________________________________________________________
+Filtered out the following 7953 keys with corresponding values:
+
+__________________________________________________________________
+Wrote 6805 objects to file urlhaus/extracted_data/0a67ca83-d7ac-4c8c-9312-f73b50921843.txt
+==================================================================
+Read file urlhaus/stix_data/0a31d356-9328-4ec5-9852-7e63290182bc.json.stix
+__________________________________________________________________
+Filtered out the following 10824 keys with corresponding values:
+
+__________________________________________________________________
+Wrote 15679 objects to file urlhaus/extracted_data/0a31d356-9328-4ec5-9852-7e63290182bc.txt
+==================================================================
+
+august@august-XPS-13-9370 ~/S/E/M/i/t/r/data (main)> python3 split_data.py threatfox/stix_data/ threatfox/extracted_data/ -v
+Read file threatfox/stix_data/0a47b872-e20e-4f88-b87e-5152c079ed0d.json.stix
+__________________________________________________________________
+Filtered out the following 340 keys with corresponding values:
+
+__________________________________________________________________
+Wrote 3814 objects to file threatfox/extracted_data/0a47b872-e20e-4f88-b87e-5152c079ed0d.txt
+==================================================================
+Read file threatfox/stix_data/0ac62ccd-8465-4a3f-8df1-c0d89162dd26.json.stix
+__________________________________________________________________
+Filtered out the following 119 keys with corresponding values:
+
+__________________________________________________________________
+Wrote 207 objects to file threatfox/extracted_data/0ac62ccd-8465-4a3f-8df1-c0d89162dd26.txt
+==================================================================
+Read file threatfox/stix_data/0a5460c5-e2a0-4a91-8911-fe79cd25e07c.json.stix
+__________________________________________________________________
+Filtered out the following 209 keys with corresponding values:
+
+__________________________________________________________________
+Wrote 263 objects to file threatfox/extracted_data/0a5460c5-e2a0-4a91-8911-fe79cd25e07c.txt
+==================================================================
+august@august-XPS-13-9370 ~/S/E/M/i/t/r/data (main)> python3 split_data.py circl.lu/stix_data/ circl.lu/extracted_data/ -v
+Read file circl.lu/stix_data/0b988513-9535-42f0-9ebc-5d6aec2e1c79.json.stix
+__________________________________________________________________
+Filtered out the following 59 keys with corresponding values:
+
+__________________________________________________________________
+Wrote 140 objects to file circl.lu/extracted_data/0b988513-9535-42f0-9ebc-5d6aec2e1c79.txt
+==================================================================
+Read file circl.lu/stix_data/0e887f03-5aa2-4a7b-b0f7-66208c6c657b.json.stix
+__________________________________________________________________
+Filtered out the following 13 keys with corresponding values:
+
+__________________________________________________________________
+Wrote 24 objects to file circl.lu/extracted_data/0e887f03-5aa2-4a7b-b0f7-66208c6c657b.txt
+==================================================================
+Read file circl.lu/stix_data/0ebe51c2-31f1-4ba4-b7ab-1f5e62531e45.json.stix
+__________________________________________________________________
+Filtered out the following 274 keys with corresponding values:
+
+__________________________________________________________________
+Wrote 275 objects to file circl.lu/extracted_data/0ebe51c2-31f1-4ba4-b7ab-1f5e62531e45.txt
+==================================================================
+august@august-XPS-13-9370 ~/S/E/M/i/t/r/data (main)> python3 split_data.py botvrij/stix_data botvrij/extracted_data -v
+Read file botvrij/stix_data/033e3332-eb5b-45d3-9a5c-68ca17aa9a8d.json.stix
+__________________________________________________________________
+Filtered out the following 2 keys with corresponding values:
+
+__________________________________________________________________
+Wrote 442 objects to file botvrij/extracted_data/033e3332-eb5b-45d3-9a5c-68ca17aa9a8d.txt
+==================================================================
+Read file botvrij/stix_data/0319b483-5973-4932-91ea-5a44c2975b24.json.stix
+__________________________________________________________________
+Filtered out the following 8 keys with corresponding values:
+
+__________________________________________________________________
+Wrote 26 objects to file botvrij/extracted_data/0319b483-5973-4932-91ea-5a44c2975b24.txt
+==================================================================
+Read file botvrij/stix_data/02a470d8-493e-41d9-8367-622460dddbe8.json.stix
+__________________________________________________________________
+Filtered out the following 2 keys with corresponding values:
+
+__________________________________________________________________
+Wrote 16 objects to file botvrij/extracted_data/02a470d8-493e-41d9-8367-622460dddbe8.txt
+==================================================================

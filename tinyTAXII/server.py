@@ -3,11 +3,6 @@
 #
 # SPDX-License-Identifier: MIT
 
-"""A server suitable for running the OSCORE plug test series against it
-
-See https://github.com/EricssonResearch/OSCOAP for the test suite
-description."""
-
 import sys
 import asyncio
 import logging
@@ -53,7 +48,7 @@ class PlugtestResource(resource.Resource):
             reference.opt.observe = request.opt.observe
         additional_verify_request_options(reference, request)
 
-        return aiocoap.Message(payload=self.message.encode('ascii'), **self.options)
+        return aiocoap.Message(payload=self.message, **self.options)
 
 class Hello(PlugtestResource):
     options = {'content_format': 0}
@@ -62,60 +57,40 @@ class Hello(PlugtestResource):
     with open("stix_data.json") as f:
         message = f.read()
 
+    message= b'\xa7\x02\x15\x03c2.1\x08x.identity--55f6ea5e-2c60-40e5-964f-47a8950d210f\x10x\x182021-03-12T09:33:28.000Z\x0fx\x182021-03-12T09:33:28.000Z\x0eeCIRCL\x18\x92\x04'
 Hello1 = Hello # same, just registered with the site for protected access
 
-class Hello2(Hello):
-    expected_options = {'uri_query': ['first=1']}
-
-    options = {'etag': b"\x2b", **Hello1.options}
-
-class Hello3(Hello):
-    expected_options = {'accept': 0}
-
-    options = {'max_age': 5, **Hello1.options}
 
 class Observe(PlugtestResource, aiocoap.interfaces.ObservableResource):
     expected_options = {'observe': 0}
     options = {'content_format': 0}
-
-    message = "one"
+    data_list = []
+    with open("../reference_testing/data/botvrij/tinystix_data/02a470d8-493e-41d9-8367-622460dddbe8_first_line.txt", "rb") as file:
+        while True:
+            # Read a line (up to the delimiter) and break if the end of file is reached
+            line = file.readline()
+            if not line:
+                break
+            # Append the byte-string to the list
+            data_list.append(line.strip())
+    message = b"no data" if not data_list else data_list[0]
 
     async def add_observation(self, request, serverobservation):
         async def keep_entertained():
-            await asyncio.sleep(2)
-            serverobservation.trigger(aiocoap.Message(
+
+            for data in self.data_list[1:]:
+                await asyncio.sleep(0.01)
+                serverobservation.trigger(aiocoap.Message(
                 mtype=aiocoap.CON, code=aiocoap.CONTENT,
-                payload=b"two", content_format=0,
+                payload=data, content_format=0,
                 ))
-            await asyncio.sleep(2)
+            await asyncio.sleep(0.01)
             serverobservation.trigger(aiocoap.Message(
                 mtype=aiocoap.CON, code=aiocoap.INTERNAL_SERVER_ERROR,
                 payload=b"Terminate Observe", content_format=0,
                 ))
         t = asyncio.create_task(keep_entertained())
         serverobservation.accept(t.cancel)
-
-class Hello6(resource.Resource):
-    async def render_post(self, request):
-        additional_verify_request_options(aiocoap.Message(content_format=0), request)
-        additional_verify("Request payload as expected", request.payload, b"\x4a")
-
-        return aiocoap.Message(code=aiocoap.CHANGED, payload=b"\x4a", content_format=0)
-
-class Hello7(resource.Resource):
-    async def render_put(self, request):
-        if request.opt.if_none_match:
-            print("This looks like test 10b")
-            additional_verify_request_options(aiocoap.Message(content_format=0, if_none_match=True), request)
-            additional_verify("Request payload as expected", request.payload, b"\x8a")
-
-            return aiocoap.Message(code=aiocoap.PRECONDITION_FAILED)
-        else:
-            print("This looks like test 9b")
-            additional_verify_request_options(aiocoap.Message(content_format=0, if_match=[b"{"]), request)
-            additional_verify("Request payload as expected", request.payload, b"z")
-
-            return aiocoap.Message(code=aiocoap.CHANGED)
 
 class DeleteResource(resource.Resource):
     async def render_delete(self, request):
@@ -192,30 +167,18 @@ class SeqnoManager(resource.ObservableResource):
 
         raise NotImplementedError
 
-class PlugtestSite(resource.Site):
+class Site(resource.Site):
     def __init__(self, server_credentials):
         super().__init__()
 
         self.add_resource(['.well-known', 'core'], resource.WKCResource(self.get_resources_as_linkheader))
         self.add_resource(['oscore', 'hello', 'coap'], Hello())
-
-        self.add_resource(['oscore', 'hello', '1'], Hello1())
-        self.add_resource(['oscore', 'hello', '2'], Hello2())
-        self.add_resource(['oscore', 'hello', '3'], Hello3())
-        self.add_resource(['oscore', 'hello', '6'], Hello6())
-        self.add_resource(['oscore', 'hello', '7'], Hello7())
         self.add_resource(['oscore', 'observe1'], Observe())
-        self.add_resource(['oscore', 'observe2'], Observe())
-        self.add_resource(['oscore', 'test'], DeleteResource())
-
-        self.add_resource(['oscore', 'block', 'outer'], BlockResource())
-        self.add_resource(['oscore', 'block', 'inner'], InnerBlockResource())
-
         self.add_resource(['sequence-numbers'], SeqnoManager(server_credentials))
 
-class PlugtestServerProgram(AsyncCLIDaemon):
+class ServerProgram(AsyncCLIDaemon):
     async def start(self):
-        p = argparse.ArgumentParser(description="Server for the OSCORE plug test. Requires a test number to be present.")
+        p = argparse.ArgumentParser()
         p.add_argument("contextdir", help="Directory name where to persist sequence numbers", type=Path)
         p.add_argument('--verbose', help="Increase log level", action='store_true')
         p.add_argument('--state-was-lost', help="Lose memory of the replay window, forcing B.1.2 recovery", action='store_true')
@@ -232,16 +195,16 @@ class PlugtestServerProgram(AsyncCLIDaemon):
         server_credentials[':b'] = get_security_context('b', opts.contextdir / "b", opts.state_was_lost)
         server_credentials[':d'] = get_security_context('d', opts.contextdir / "d", opts.state_was_lost)
 
-        site = PlugtestSite(server_credentials)
+        site = Site(server_credentials)
         site = OscoreSiteWrapper(site, server_credentials)
 
         self.context = await server_context_from_arguments(site, opts)
 
-        print("Plugtest server ready.")
+        print("Test server ready.")
         sys.stdout.flush() # the unit tests might wait abundantly long for this otherwise
 
     async def shutdown(self):
         await self.context.shutdown()
 
 if __name__ == "__main__":
-    PlugtestServerProgram.sync_main()
+    ServerProgram.sync_main()

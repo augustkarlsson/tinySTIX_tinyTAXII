@@ -90,7 +90,7 @@ class PlugtestClientProgram:
     async def test_plain(self):
         # request = Message(code=GET, uri='coap://' + self.host + '/oscore/observe2')
 
-        # self.use_context("ab")
+        self.use_context("ab")
 
         # response = await self.ctx.request(request).response
 
@@ -100,7 +100,7 @@ class PlugtestClientProgram:
         # additional_verify("Options as expected", response.opt, Message(content_format=0).opt)
 
 
-        self.use_context(None)
+        #self.use_context(None)
 
         request = Message(code=GET, uri='coap://' + self.host + '/oscore/observe1', observe=0)
 
@@ -108,21 +108,24 @@ class PlugtestClientProgram:
 
         unprotected_response = await request.response
 
-        print("Unprotected response:", unprotected_response)
-        additional_verify("Code as expected", unprotected_response.code, CONTENT)
-        additional_verify("Observe option present", unprotected_response.opt.observe is not None, True)
+        #print("Unprotected response:", unprotected_response)
+        # additional_verify("Code as expected", unprotected_response.code, CONTENT)
+        # additional_verify("Observe option present", unprotected_response.opt.observe is not None, True)
 
         payloads = [unprotected_response.payload]
-
+        i = 0
         async for o in request.observation:
-            # FIXME: where's the 'two' stuck?
+            i+=1
             payloads.append(o.payload)
             print("Verify: Received message", o, o.payload)
+            print(i)
             
         # expected_payloads = [b'one', b'two']
         # expected_payloads.append(b'Terminate Observe')
-        additional_verify("Server gave the correct responses", payloads, b'one')
+        # additional_verify("Server gave the correct responses", payloads, b'one')
 
+
+        print("\n\n", payloads, "\n\n")
 
 if __name__ == "__main__":
     asyncio.run(PlugtestClientProgram().run_with_shutdown())

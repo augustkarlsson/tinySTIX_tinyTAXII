@@ -1,0 +1,3308 @@
+{
+    "type": "bundle",
+    "id": "bundle--0b988513-9535-42f0-9ebc-5d6aec2e1c79",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-12-07T06:54:35.000Z",
+            "modified": "2020-12-07T06:54:35.000Z",
+            "name": "CIRCL",
+            "identity_class": "organization"
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--0b988513-9535-42f0-9ebc-5d6aec2e1c79",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-12-07T06:54:35.000Z",
+            "modified": "2020-12-07T06:54:35.000Z",
+            "name": "OSINT - Egregor: The New Ransomware Variant To Watch",
+            "published": "2020-12-07T06:54:44Z",
+            "object_refs": [
+                "indicator--7df62701-db13-41e4-987c-dcd58b98b7c5",
+                "indicator--6b2c6a04-37bd-4796-a56a-29489fd91efc",
+                "indicator--2cfaa8fd-5000-482c-a7f4-572982427af9",
+                "observed-data--3c4fad3b-e2bd-4fad-a1e9-41da1d9c6b0e",
+                "network-traffic--3c4fad3b-e2bd-4fad-a1e9-41da1d9c6b0e",
+                "ipv4-addr--3c4fad3b-e2bd-4fad-a1e9-41da1d9c6b0e",
+                "indicator--34b96233-8ea0-49e3-b93b-c776c87289d8",
+                "indicator--2d6a985c-63ee-47cd-af17-c47838f683c5",
+                "indicator--a2b9348a-0583-4d17-bb56-2dc163f74640",
+                "indicator--b43e9989-0619-41dc-9518-847de4c3cf1d",
+                "indicator--63db7428-7fd6-4f8a-8ee0-e8bbaafc6f10",
+                "indicator--99e529ab-f8ed-4034-9c5f-9c7dcdc5f9ce",
+                "indicator--aa877972-d255-4035-808a-7ff7077e69cf",
+                "indicator--56d28b21-d88c-4d66-a7e7-ec55fbe52b6d",
+                "indicator--9bb64496-b303-420f-8023-42e203e1c0fd",
+                "indicator--e73fecb3-c461-4486-a046-a38817e490db",
+                "indicator--7a27a35f-5b12-40d4-a23e-b0f8ee5d47d0",
+                "indicator--6f7dc741-6908-4bbe-b68d-9c212883603c",
+                "indicator--de3ad96b-b2ae-4137-a6b5-2c7a576c13fd",
+                "indicator--ca533984-24e2-4400-a1cd-b5716041c5b9",
+                "indicator--04379602-bb89-47f3-9611-e69ea2628e9c",
+                "indicator--3dbe056f-c1d3-4abe-9e87-6e8aa0d4b184",
+                "indicator--c1f4ba97-9e4a-4e9c-8156-a21b0823a6cf",
+                "indicator--c1e0cc56-186c-4d53-8fe9-f81025d50219",
+                "indicator--e1a88a7b-2c42-4397-8443-676d3dc71b40",
+                "indicator--85265961-c86f-4052-a55e-0150811bf9de",
+                "indicator--1c1689d8-c42a-4ae2-9377-1a8d633bc39e",
+                "indicator--12c55add-294a-450c-b0b5-b59f071a5a9f",
+                "indicator--2ca0e677-f839-425b-90b1-e31d5312e5c3",
+                "indicator--fd9b5def-27a6-449e-a369-552df16fce6e",
+                "indicator--edff46c4-ab68-49ef-81b4-5d8c52c50386",
+                "indicator--ba1e3664-8d83-46d9-aa3c-8f4ea9d58998",
+                "indicator--1623da53-514f-46be-974f-a0e548515571",
+                "indicator--b6bbf98a-ad0f-442c-bd3e-0993a05fea30",
+                "indicator--a7eb918b-293f-4a6e-9e3c-89fcaabbe1c3",
+                "indicator--ee1c23b7-5995-4c14-b18f-b5633a3803fe",
+                "indicator--10220945-92cc-4580-b33e-b6ddf267ac5d",
+                "indicator--e5ae581b-a5bd-4f9a-9ed2-231cb3882d9b",
+                "indicator--9cddc7e5-7fd1-4f7f-ba8a-8e82b6ae975f",
+                "indicator--0e61d4aa-4ab5-4c0a-8771-c11ac0aa3d34",
+                "indicator--ea0e4f9e-538f-44db-a026-0377bf60ceeb",
+                "indicator--9f78fecb-07c6-405d-a871-7d25948e7f72",
+                "indicator--cd5ba297-ab8b-41e7-997c-0232b1d4e7be",
+                "indicator--cc4edef1-45d0-4331-9746-db247c9571e8",
+                "indicator--d63fdcc7-6974-4415-9cf8-579dac946fc7",
+                "indicator--c5d74096-dc54-48c6-810d-a1a685823c26",
+                "indicator--a76afdc5-b2d4-4034-a293-e2e5645c09a1",
+                "indicator--c9eb601a-3eb7-4002-b2a4-0b0b20b045a2",
+                "indicator--3aed8153-b054-4023-8d85-7e46fa25a1a5",
+                "indicator--b98abbfd-03e3-450c-a724-3b6774848758",
+                "indicator--e713ad5c-15c1-474b-a64e-8cad2d2d601d",
+                "observed-data--749069e0-2af6-4912-b6af-fcbf036abc6b",
+                "url--749069e0-2af6-4912-b6af-fcbf036abc6b",
+                "indicator--dae954bf-d717-4db4-9f5c-975c7db3f90e",
+                "x-misp-object--9213f424-626b-40e0-b562-a7f7bc88e3a8",
+                "indicator--dd11f943-da32-4ad3-b3ec-2eec523934cb",
+                "x-misp-object--007949e3-cb32-497a-816c-36cab32d9ac2",
+                "indicator--bcf8042f-0b95-4178-a074-45aac53a7c61",
+                "x-misp-object--23893bf9-d6af-4f9a-a771-0c5da6ea7a07",
+                "indicator--65e672fd-bda4-421a-b845-8ae2187d3a84",
+                "x-misp-object--9ddcd362-1434-4c87-bc0b-3fb2518d1df4",
+                "indicator--9d66db92-9270-452b-8b61-809f87430946",
+                "x-misp-object--4ec1d2b7-780e-44b4-8b93-5e1eb233ee3c",
+                "indicator--df122a7d-f66d-4cb2-8d33-dcb1a26a7631",
+                "x-misp-object--75f5a863-d2ad-4b75-aed3-57824e1f4b74",
+                "indicator--0e69334e-7f89-4134-93ff-8a78125e76a1",
+                "x-misp-object--f5e9e59f-786a-4061-b160-275c77ad1413",
+                "indicator--3accfc2d-699d-4b38-b73b-7f44f6178f86",
+                "x-misp-object--de4cb21f-0c76-4ba7-b6d0-d7bab2efb9fe",
+                "indicator--1869f991-c37b-421f-8acf-0ef897b222c1",
+                "x-misp-object--c1cc2a52-510b-43c3-84c3-22ed9fc3b584",
+                "indicator--14e45266-3407-488f-bf65-a3db1d80eaab",
+                "x-misp-object--67931bd5-bd64-4653-a4f2-69c943ddde2b",
+                "indicator--ba465669-584e-4428-b1bc-8a8e56072fa4",
+                "x-misp-object--13b55e21-1bec-4e2a-9d27-0d28b919434f",
+                "indicator--17583e77-74e5-4ade-a66f-db2e20e483d4",
+                "x-misp-object--988ecb34-22bb-4c5e-869a-db3c44e73de7",
+                "indicator--b44424f8-91b4-490d-8500-efacd8a13cfb",
+                "x-misp-object--2f3790f6-642c-403c-8431-6c9701b6167b",
+                "indicator--e5a467d0-1e18-4cae-a708-15ca3d14f9b4",
+                "x-misp-object--7958e8a6-e292-4740-81ca-eb75a9a47d47",
+                "indicator--47ab1fff-99b1-4a8f-ac26-2fdcdabf26fe",
+                "x-misp-object--09ceb2d2-eb7e-4a16-bc57-29afde1aeeed",
+                "indicator--9510dcf9-150b-41e5-b913-e36a1547e4a1",
+                "x-misp-object--e8981eda-4685-4231-b3ea-5188b9c16ead",
+                "indicator--19b4a708-3497-486e-883d-02bc6e796e06",
+                "x-misp-object--79a5210a-c48a-4e64-bfae-a504be65114c",
+                "indicator--c25cbed6-51cb-4031-b4a9-b2c022c819b6",
+                "x-misp-object--d74f7fc9-73c8-418e-861c-deb6e2078070",
+                "indicator--92080893-0f34-460d-8899-99f7cbd0d680",
+                "x-misp-object--a8540f6a-bf63-4f19-85e4-2af8bb931dd6",
+                "indicator--567cf864-68d7-48d6-a46c-f844eb6a6f88",
+                "x-misp-object--84145e3f-4739-4bfa-a8e0-bdb028d4bcea",
+                "indicator--6e8e34ab-431a-4d24-9765-cb70cab1a1d3",
+                "x-misp-object--46d36b17-64ff-4412-989f-acdd77c69394",
+                "indicator--7d17c216-41bc-4d87-9a40-98a3b01d2bda",
+                "x-misp-object--5be430cb-a5f4-4d92-b5be-570b3cca50de",
+                "indicator--046651a5-adf6-428a-9831-45f361bded36",
+                "x-misp-object--467a4633-96c9-4bb0-b34d-dbcee67a71df",
+                "indicator--48c374dc-b8b4-40a7-b1e9-8f045d5ec4f3",
+                "x-misp-object--0efde995-6a23-4e63-b99c-87b832578777",
+                "indicator--8a270f9e-a320-44c9-9235-9b1501ec37f7",
+                "x-misp-object--8ce10412-621c-49e7-aca8-ed9fb81564a6",
+                "indicator--ea980ee5-7614-4c42-9c8d-a2d7a628177b",
+                "x-misp-object--cd62008b-bd96-4542-8e5f-9344d3250a48",
+                "indicator--a28e00ce-b822-427e-b079-843a25ba6a20",
+                "x-misp-object--528be816-9ed6-4704-8e72-1aeed9480cf2",
+                "indicator--936c65cd-2c49-4256-b729-d9b4c4276122",
+                "x-misp-object--baa1bfd9-4c36-4813-a30e-b8e84dd856a5",
+                "relationship--28e9053e-2a6d-4691-b2cd-16efa650efad",
+                "relationship--4ee3e659-44e4-4469-8fd5-51a5d271ae95",
+                "relationship--cd5a2205-2781-45fa-b649-6e1182c80da4",
+                "relationship--fd5459a0-9e26-4641-a34f-5b68d42d723e",
+                "relationship--534dc68b-a7fe-4234-938c-eccaa61791ea",
+                "relationship--84ed1aed-e907-471a-9178-f3acfe811fae",
+                "relationship--221196d4-0298-428d-813a-5af7316acf53",
+                "relationship--3b06382f-4f8f-4baf-aa23-12fde308a8d8",
+                "relationship--a02a5512-dc87-4123-a8c6-8ea11f1070ad",
+                "relationship--7ef4e797-2a53-4c66-ac12-4c9131381e64",
+                "relationship--1fdcd523-52a9-4347-a520-af7913e0961d",
+                "relationship--061d916d-cb76-4d30-85d7-842b54c4c1e7",
+                "relationship--8e6db000-a0bd-4bb5-9d57-c4260937fb0b",
+                "relationship--df4d6b42-f26c-4f86-894c-03697f8381f5",
+                "relationship--e0583f47-9144-41d3-b23c-134da546e1b7",
+                "relationship--4cbffe9d-5943-454e-bfd4-c37a903c6091",
+                "relationship--8bfda837-00bc-41f7-8970-66fb1d520fef",
+                "relationship--358f5884-2e06-4cd4-9def-1832cad956d6",
+                "relationship--240787b2-1e76-4a02-ae33-f9866254ee1d",
+                "relationship--fc4e112d-e6fb-46dc-b514-3e6408be9e58",
+                "relationship--7b7c491f-926c-4049-9e27-762d477d40b7",
+                "relationship--c4a4d4d8-b3ba-462c-9d20-87f12d62c20c",
+                "relationship--48b79d5e-f9fd-46d8-a81b-2be9a5b22ae4",
+                "relationship--a23c7191-dcf0-467b-aafc-01dbeb026fb6",
+                "relationship--605c7d07-9646-4874-9ca1-1471e1378275",
+                "relationship--ab596297-9898-47ab-b4fd-13e2ff61d202",
+                "relationship--9a12ab17-5666-4bb5-80c6-cf6e208139d7",
+                "relationship--858e109f-6896-4307-af9b-b5591e4bb16a"
+            ],
+            "labels": [
+                "Threat-Report",
+                "misp:tool=\"MISP-STIX-Converter\"",
+                "type:OSINT",
+                "osint:lifetime=\"perpetual\"",
+                "osint:certainty=\"50\"",
+                "misp-galaxy:ransomware=\"Egregor\""
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--7df62701-db13-41e4-987c-dcd58b98b7c5",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:00.000Z",
+            "modified": "2020-11-27T14:00:00.000Z",
+            "pattern": "[url:value = 'http://49.12.104.241:81/78.bin']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:00Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"url\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--6b2c6a04-37bd-4796-a56a-29489fd91efc",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:00.000Z",
+            "modified": "2020-11-27T14:00:00.000Z",
+            "pattern": "[url:value = 'http://49.12.104.241/sm.dll']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:00Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"url\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--2cfaa8fd-5000-482c-a7f4-572982427af9",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:00.000Z",
+            "modified": "2020-11-27T14:00:00.000Z",
+            "pattern": "[url:value = 'http://49.12.104.241:81/sm.dll']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:00Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"url\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "observed-data",
+            "spec_version": "2.1",
+            "id": "observed-data--3c4fad3b-e2bd-4fad-a1e9-41da1d9c6b0e",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-12-07T06:54:35.000Z",
+            "modified": "2020-12-07T06:54:35.000Z",
+            "first_observed": "2020-12-07T06:54:35Z",
+            "last_observed": "2020-12-07T06:54:35Z",
+            "number_observed": 1,
+            "object_refs": [
+                "network-traffic--3c4fad3b-e2bd-4fad-a1e9-41da1d9c6b0e",
+                "ipv4-addr--3c4fad3b-e2bd-4fad-a1e9-41da1d9c6b0e"
+            ],
+            "labels": [
+                "misp:type=\"ip-dst\"",
+                "misp:category=\"Network activity\""
+            ]
+        },
+        {
+            "type": "network-traffic",
+            "spec_version": "2.1",
+            "id": "network-traffic--3c4fad3b-e2bd-4fad-a1e9-41da1d9c6b0e",
+            "dst_ref": "ipv4-addr--3c4fad3b-e2bd-4fad-a1e9-41da1d9c6b0e",
+            "protocols": [
+                "tcp"
+            ]
+        },
+        {
+            "type": "ipv4-addr",
+            "spec_version": "2.1",
+            "id": "ipv4-addr--3c4fad3b-e2bd-4fad-a1e9-41da1d9c6b0e",
+            "value": "91.199.212.52"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--34b96233-8ea0-49e3-b93b-c776c87289d8",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:16.000Z",
+            "modified": "2020-11-27T14:00:16.000Z",
+            "pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '49.12.104.241']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:16Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"ip-dst\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--2d6a985c-63ee-47cd-af17-c47838f683c5",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA1 = '03cdec4a0a63a016d0767650cdaf1d4d24669795']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha1\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a2b9348a-0583-4d17-bb56-2dc163f74640",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA1 = '069ef8443df750e9f72ebe4ed93c3e472a2396e2']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha1\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b43e9989-0619-41dc-9518-847de4c3cf1d",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = '072ab57f9db16d9fb92009c8e10b176bd4a2eff01c3bc6e190020cf5a0055505']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--63db7428-7fd6-4f8a-8ee0-e8bbaafc6f10",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA1 = '07d4bcb5b969a01fb21dc28e5cb1b7ceb05f2912']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha1\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--99e529ab-f8ed-4034-9c5f-9c7dcdc5f9ce",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.MD5 = '16a9c2917577e732cd6630b08e248443']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"md5\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--aa877972-d255-4035-808a-7ff7077e69cf",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = '1a722cde21a4338b26bc37401ef963022d97cea141c985e6615a10287f8d02ff']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--56d28b21-d88c-4d66-a7e7-ec55fbe52b6d",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.MD5 = '1cce0c0d67fe7f51f335a12138698403']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"md5\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--9bb64496-b303-420f-8023-42e203e1c0fd",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = '28f3f5a3ea270d9b896fe38b9df79a6ca430f5edab0423b3d834cf8d586f13e6']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e73fecb3-c461-4486-a046-a38817e490db",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = '2d01c32d51e4bbb986255e402da4624a61b8ae960532fbb7bb0d3b0080cb9946']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--7a27a35f-5b12-40d4-a23e-b0f8ee5d47d0",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = '386cf4e151bc7510c3333eb1a5c96ab1b7becd8cfb94bcb76e93458078daf66f']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--6f7dc741-6908-4bbe-b68d-9c212883603c",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = '3dba9fbef8f8a42ecfa65022b8a3c54738d15ef67c666272078b58b3c9a0a414']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--de3ad96b-b2ae-4137-a6b5-2c7a576c13fd",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = '410afc5daebd7b39410b046286b814bb5fb5f9139167cd310bc59cc4461d4083']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ca533984-24e2-4400-a1cd-b5716041c5b9",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.MD5 = '43445fbe21cf3512724646a284d3e5d7']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"md5\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--04379602-bb89-47f3-9611-e69ea2628e9c",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = '49b3d9c3bd6b6a13f89f0e849d80531454cc5cd259cbb7c8a806c67cd403575e']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--3dbe056f-c1d3-4abe-9e87-6e8aa0d4b184",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.MD5 = '4c36c3533a283e1aa199f80e20d264b9']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"md5\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c1f4ba97-9e4a-4e9c-8156-a21b0823a6cf",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = '5455d104e693445dce5567236f4e047617bae7f09d5ca8699a838c2d17d37fb3']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c1e0cc56-186c-4d53-8fe9-f81025d50219",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = '561092877e91f2741ed061cbe7a57d1af552b600c6654ccc588cb6bff7939152']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e1a88a7b-2c42-4397-8443-676d3dc71b40",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.MD5 = '5f9fcbdf7ad86583eb2bbcaa5741d88a']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"md5\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--85265961-c86f-4052-a55e-0150811bf9de",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = '605c2047be7c4a17823ad1fa5c1f94fd105721fce3621dc9148cd3baf352938e']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--1c1689d8-c42a-4ae2-9377-1a8d633bc39e",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.MD5 = '627c2219a80245a25e4fe9843ac2a021']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"md5\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--12c55add-294a-450c-b0b5-b59f071a5a9f",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.MD5 = '65c320bc5258d8fa86aa9ffd876291d3']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"md5\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--2ca0e677-f839-425b-90b1-e31d5312e5c3",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = '7222c8acc69a7598989c335d528b366f801a41b434cbf928c6aef01f8e54f57a']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--fd9b5def-27a6-449e-a369-552df16fce6e",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA1 = '7bc6c2d714e88659b26b6b8ed6681b1f91eef6af']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha1\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--edff46c4-ab68-49ef-81b4-5d8c52c50386",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = '7caed5f406445c788543f55af6d98a8bc4f0c104e6a51e2564dd37b6a485cc18']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ba1e3664-8d83-46d9-aa3c-8f4ea9d58998",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.MD5 = '7dd1a1a0eefc5a653a30010f475cc37c']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"md5\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--1623da53-514f-46be-974f-a0e548515571",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = '9fffabede0ef679970666f04184340437cd70bc8fe870ee8174713ececf32398']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b6bbf98a-ad0f-442c-bd3e-0993a05fea30",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.MD5 = 'a654b3a37c27810db180822b72ad6d3e']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"md5\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a7eb918b-293f-4a6e-9e3c-89fcaabbe1c3",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA1 = 'ac634854448eb8fcd3abf49c8f37cd21f4282dde']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha1\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ee1c23b7-5995-4c14-b18f-b5633a3803fe",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = 'b027467332243c8186e59f68ff7c43c9e212d9e5074fedf003febcfedad4381a']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--10220945-92cc-4580-b33e-b6ddf267ac5d",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.MD5 = 'b554791b5b161c34b0a7d26e34a88e60']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"md5\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e5ae581b-a5bd-4f9a-9ed2-231cb3882d9b",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = 'b81d2293b43decd5a401487da952deb32cbb53f118882b97b457a14c67029247']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--9cddc7e5-7fd1-4f7f-ba8a-8e82b6ae975f",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.MD5 = 'b9dcee839437a917dde60eff9b6014b1']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"md5\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0e61d4aa-4ab5-4c0a-8771-c11ac0aa3d34",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA1 = 'bd8c52bb1f5c034f11f3048e2ed89b7b8ff39261']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha1\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ea0e4f9e-538f-44db-a026-0377bf60ceeb",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = 'c1c4e677b36a2ee6ae858546e727e73cc38c95c9024c724f939178b3c03de906']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--9f78fecb-07c6-405d-a871-7d25948e7f72",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = 'c9d46c319ed01c183598f7b9a60b9bca34b2eea989f4659e9aa27c7a1bf8681c']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--cd5ba297-ab8b-41e7-997c-0232b1d4e7be",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA1 = 'd2d9484276a208641517a2273d96f34de1394b8e']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha1\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--cc4edef1-45d0-4331-9746-db247c9571e8",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.MD5 = 'd6fa64f36eab990669f0b81f84b9a78a']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"md5\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--d63fdcc7-6974-4415-9cf8-579dac946fc7",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA1 = 'e0caae0804957c5e31c53dd320ca83a5465169c9']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha1\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c5d74096-dc54-48c6-810d-a1a685823c26",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA1 = 'e27725074f7bc55014885921b7ec8b5319b1ef8f']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha1\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a76afdc5-b2d4-4034-a293-e2e5645c09a1",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = 'e3ef50749f144bfd7f5d7d51aaa9e2332b706c4d8ac130fdc95f50662525f6e0']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c9eb601a-3eb7-4002-b2a4-0b0b20b045a2",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA1 = 'ed5b60a640a19afe8d1281bf691f40bac34eba8a']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha1\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--3aed8153-b054-4023-8d85-7e46fa25a1a5",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA1 = 'f0215aac7be36a5fedeea51d34d8f8da2e98bf1b']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha1\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b98abbfd-03e3-450c-a724-3b6774848758",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA256 = 'f1ba626b8181bd1cd84f47f70838d9fa4d8117fac3bd07cbd73cb6f73b1297f8']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e713ad5c-15c1-474b-a64e-8cad2d2d601d",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:00:59.000Z",
+            "modified": "2020-11-27T14:00:59.000Z",
+            "pattern": "[file:hashes.SHA1 = 'f73e31d11f462f522a883c8f8f06d44f8d3e2f01']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:00:59Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha1\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "observed-data",
+            "spec_version": "2.1",
+            "id": "observed-data--749069e0-2af6-4912-b6af-fcbf036abc6b",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:04:23.000Z",
+            "modified": "2020-11-27T14:04:23.000Z",
+            "first_observed": "2020-11-27T14:04:23Z",
+            "last_observed": "2020-11-27T14:04:23Z",
+            "number_observed": 1,
+            "object_refs": [
+                "url--749069e0-2af6-4912-b6af-fcbf036abc6b"
+            ],
+            "labels": [
+                "misp:type=\"link\"",
+                "misp:category=\"External analysis\""
+            ]
+        },
+        {
+            "type": "url",
+            "spec_version": "2.1",
+            "id": "url--749069e0-2af6-4912-b6af-fcbf036abc6b",
+            "value": "https://www.digitalshadows.com/blog-and-research/egregor-the-new-ransomware-variant-to-watch/"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--dae954bf-d717-4db4-9f5c-975c7db3f90e",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:38.000Z",
+            "modified": "2020-11-27T14:07:38.000Z",
+            "pattern": "[file:hashes.MD5 = 'd6fa64f36eab990669f0b81f84b9a78a' AND file:hashes.SHA1 = 'ed5b60a640a19afe8d1281bf691f40bac34eba8a' AND file:hashes.SHA256 = '9c900078cc6061fb7ba038ee5c065a45112665f214361d433fc3906bf288e0eb']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:38Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--9213f424-626b-40e0-b562-a7f7bc88e3a8",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:38.000Z",
+            "modified": "2020-11-27T14:07:38.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-27T01:00:50+00:00",
+                    "category": "Other",
+                    "uuid": "dc5f8db2-b8fe-438c-9205-d957b54da23c"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/9c900078cc6061fb7ba038ee5c065a45112665f214361d433fc3906bf288e0eb/detection/f-9c900078cc6061fb7ba038ee5c065a45112665f214361d433fc3906bf288e0eb-1606438850",
+                    "category": "Payload delivery",
+                    "uuid": "6f84c793-0767-4c5c-85d0-0b6642f9743b"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "59/69",
+                    "category": "Payload delivery",
+                    "uuid": "9d87bdd7-4495-47bf-a905-47c84b608daf"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--dd11f943-da32-4ad3-b3ec-2eec523934cb",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:38.000Z",
+            "modified": "2020-11-27T14:07:38.000Z",
+            "pattern": "[file:hashes.MD5 = '65c320bc5258d8fa86aa9ffd876291d3' AND file:hashes.SHA1 = 'f0215aac7be36a5fedeea51d34d8f8da2e98bf1b' AND file:hashes.SHA256 = '3fd510a3b2e0b0802d57cd5b1cac1e61797d50a08b87d9b5243becd9e2f7073f']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:38Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--007949e3-cb32-497a-816c-36cab32d9ac2",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:38.000Z",
+            "modified": "2020-11-27T14:07:38.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-25T22:01:30+00:00",
+                    "category": "Other",
+                    "uuid": "882fb960-a758-4fbf-a75b-b5e267d396d3"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/3fd510a3b2e0b0802d57cd5b1cac1e61797d50a08b87d9b5243becd9e2f7073f/detection/f-3fd510a3b2e0b0802d57cd5b1cac1e61797d50a08b87d9b5243becd9e2f7073f-1606341690",
+                    "category": "Payload delivery",
+                    "uuid": "d0f5f44d-9683-4312-a0bd-d307576d6a52"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "60/69",
+                    "category": "Payload delivery",
+                    "uuid": "5b423520-1cd8-4acf-a27a-4d86ca35ed40"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--bcf8042f-0b95-4178-a074-45aac53a7c61",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:38.000Z",
+            "modified": "2020-11-27T14:07:38.000Z",
+            "pattern": "[file:hashes.MD5 = 'b554791b5b161c34b0a7d26e34a88e60' AND file:hashes.SHA1 = 'ac634854448eb8fcd3abf49c8f37cd21f4282dde' AND file:hashes.SHA256 = '7caed5f406445c788543f55af6d98a8bc4f0c104e6a51e2564dd37b6a485cc18']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:38Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--23893bf9-d6af-4f9a-a771-0c5da6ea7a07",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:38.000Z",
+            "modified": "2020-11-27T14:07:38.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-16T15:54:19+00:00",
+                    "category": "Other",
+                    "uuid": "1df043c0-799a-4b82-92cc-ec054e280629"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/7caed5f406445c788543f55af6d98a8bc4f0c104e6a51e2564dd37b6a485cc18/detection/f-7caed5f406445c788543f55af6d98a8bc4f0c104e6a51e2564dd37b6a485cc18-1605542059",
+                    "category": "Payload delivery",
+                    "uuid": "eb2437fb-3f41-4d3a-bbde-64068f9014e0"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "54/71",
+                    "category": "Payload delivery",
+                    "uuid": "be03b5ad-b229-4c57-b428-0c1ea667af8c"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--65e672fd-bda4-421a-b845-8ae2187d3a84",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:38.000Z",
+            "modified": "2020-11-27T14:07:38.000Z",
+            "pattern": "[file:hashes.MD5 = '7dd1a1a0eefc5a653a30010f475cc37c' AND file:hashes.SHA1 = 'e27725074f7bc55014885921b7ec8b5319b1ef8f' AND file:hashes.SHA256 = '92d72d4c1aaef1983a05bb65ee540236b98fdab4ca382d15a845ab6d07ea1fb8']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:38Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--9ddcd362-1434-4c87-bc0b-3fb2518d1df4",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:38.000Z",
+            "modified": "2020-11-27T14:07:38.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-27T00:58:35+00:00",
+                    "category": "Other",
+                    "uuid": "6362a09a-008d-421a-9bc9-d4f6d099b97a"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/92d72d4c1aaef1983a05bb65ee540236b98fdab4ca382d15a845ab6d07ea1fb8/detection/f-92d72d4c1aaef1983a05bb65ee540236b98fdab4ca382d15a845ab6d07ea1fb8-1606438715",
+                    "category": "Payload delivery",
+                    "uuid": "c9b93f8b-09bf-4dcf-bff5-88347b555789"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "53/70",
+                    "category": "Payload delivery",
+                    "uuid": "8ed065ee-fd3a-4af4-aaf9-43d6552a44f6"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--9d66db92-9270-452b-8b61-809f87430946",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:38.000Z",
+            "modified": "2020-11-27T14:07:38.000Z",
+            "pattern": "[file:hashes.MD5 = '627c2219a80245a25e4fe9843ac2a021' AND file:hashes.SHA1 = 'e0caae0804957c5e31c53dd320ca83a5465169c9' AND file:hashes.SHA256 = '967422de1acc14deb7e7ce803d86aff44e2652bfcd550e3a34c2e37abc883dee']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:38Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--4ec1d2b7-780e-44b4-8b93-5e1eb233ee3c",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:38.000Z",
+            "modified": "2020-11-27T14:07:38.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-16T16:43:10+00:00",
+                    "category": "Other",
+                    "uuid": "bd3490a4-e177-4a51-8d9f-6a30201c059b"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/967422de1acc14deb7e7ce803d86aff44e2652bfcd550e3a34c2e37abc883dee/detection/f-967422de1acc14deb7e7ce803d86aff44e2652bfcd550e3a34c2e37abc883dee-1605544990",
+                    "category": "Payload delivery",
+                    "uuid": "76181a61-f2b3-4b75-9741-34e31ceeacdc"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "54/71",
+                    "category": "Payload delivery",
+                    "uuid": "46a5162e-46d8-417c-b4b2-77380d488741"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--df122a7d-f66d-4cb2-8d33-dcb1a26a7631",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:38.000Z",
+            "modified": "2020-11-27T14:07:38.000Z",
+            "pattern": "[file:hashes.MD5 = 'a654b3a37c27810db180822b72ad6d3e' AND file:hashes.SHA1 = 'd2d9484276a208641517a2273d96f34de1394b8e' AND file:hashes.SHA256 = '4c9e3ffda0e663217638e6192a093bbc23cd9ebfbdf6d2fc683f331beaee0321']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:38Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--75f5a863-d2ad-4b75-aed3-57824e1f4b74",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:38.000Z",
+            "modified": "2020-11-27T14:07:38.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-25T14:20:14+00:00",
+                    "category": "Other",
+                    "uuid": "2515a56b-a668-4796-97b6-3a7630f44182"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/4c9e3ffda0e663217638e6192a093bbc23cd9ebfbdf6d2fc683f331beaee0321/detection/f-4c9e3ffda0e663217638e6192a093bbc23cd9ebfbdf6d2fc683f331beaee0321-1606314014",
+                    "category": "Payload delivery",
+                    "uuid": "0efc54c6-5cf5-48b4-8dd7-5e9e552732a4"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "58/70",
+                    "category": "Payload delivery",
+                    "uuid": "2a028bef-1056-4588-bf1f-cb5d4a44f839"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0e69334e-7f89-4134-93ff-8a78125e76a1",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:38.000Z",
+            "modified": "2020-11-27T14:07:38.000Z",
+            "pattern": "[file:hashes.MD5 = '1cce0c0d67fe7f51f335a12138698403' AND file:hashes.SHA1 = '7bc6c2d714e88659b26b6b8ed6681b1f91eef6af' AND file:hashes.SHA256 = 'c1c4e677b36a2ee6ae858546e727e73cc38c95c9024c724f939178b3c03de906']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:38Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--f5e9e59f-786a-4061-b160-275c77ad1413",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-16T16:01:40+00:00",
+                    "category": "Other",
+                    "uuid": "970bc5bc-93d6-4270-a418-4a303c079dba"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/c1c4e677b36a2ee6ae858546e727e73cc38c95c9024c724f939178b3c03de906/detection/f-c1c4e677b36a2ee6ae858546e727e73cc38c95c9024c724f939178b3c03de906-1605542500",
+                    "category": "Payload delivery",
+                    "uuid": "a0b0ffe8-0444-4d2c-bcda-37baf22dda00"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "57/70",
+                    "category": "Payload delivery",
+                    "uuid": "629cced7-8099-466d-994e-a2f8d59f7ee3"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--3accfc2d-699d-4b38-b73b-7f44f6178f86",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "pattern": "[file:hashes.MD5 = '16a9c2917577e732cd6630b08e248443' AND file:hashes.SHA1 = 'bd8c52bb1f5c034f11f3048e2ed89b7b8ff39261' AND file:hashes.SHA256 = 'a376fd507afe8a1b5d377d18436e5701702109ac9d3e7026d19b65a7d313b332']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:39Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--de4cb21f-0c76-4ba7-b6d0-d7bab2efb9fe",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-16T15:53:21+00:00",
+                    "category": "Other",
+                    "uuid": "ef8905e9-851d-4c1a-96ea-fc208d4b3210"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/a376fd507afe8a1b5d377d18436e5701702109ac9d3e7026d19b65a7d313b332/detection/f-a376fd507afe8a1b5d377d18436e5701702109ac9d3e7026d19b65a7d313b332-1605542001",
+                    "category": "Payload delivery",
+                    "uuid": "548de872-7764-4119-b2bb-9b9452de2139"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "61/71",
+                    "category": "Payload delivery",
+                    "uuid": "7a1386fb-e2b4-4a77-8c5f-9296be1f3dab"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--1869f991-c37b-421f-8acf-0ef897b222c1",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "pattern": "[file:hashes.MD5 = '4c36c3533a283e1aa199f80e20d264b9' AND file:hashes.SHA1 = 'f73e31d11f462f522a883c8f8f06d44f8d3e2f01' AND file:hashes.SHA256 = 'aee131ba1bfc4b6fa1961a7336e43d667086ebd2c7ff81029e14b2bf47d9f3a7']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:39Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--c1cc2a52-510b-43c3-84c3-22ed9fc3b584",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-27T08:07:02+00:00",
+                    "category": "Other",
+                    "uuid": "8ee76fa2-920d-440b-bdc2-3fc30af0754b"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/aee131ba1bfc4b6fa1961a7336e43d667086ebd2c7ff81029e14b2bf47d9f3a7/detection/f-aee131ba1bfc4b6fa1961a7336e43d667086ebd2c7ff81029e14b2bf47d9f3a7-1606464422",
+                    "category": "Payload delivery",
+                    "uuid": "e9f54c39-673d-466c-9b04-eaa3c79889db"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "55/67",
+                    "category": "Payload delivery",
+                    "uuid": "6fee5a39-f474-44ec-b82a-090e6cb554b5"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--14e45266-3407-488f-bf65-a3db1d80eaab",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "pattern": "[file:hashes.MD5 = '5f9fcbdf7ad86583eb2bbcaa5741d88a' AND file:hashes.SHA1 = '03cdec4a0a63a016d0767650cdaf1d4d24669795' AND file:hashes.SHA256 = '004a2dc3ec7b98fa7fe6ae9c23a8b051ec30bcfcd2bc387c440c07ff5180fe9a']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:39Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--67931bd5-bd64-4653-a4f2-69c943ddde2b",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-25T22:01:34+00:00",
+                    "category": "Other",
+                    "uuid": "435c62af-58c8-49b7-b288-013ca41a4d19"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/004a2dc3ec7b98fa7fe6ae9c23a8b051ec30bcfcd2bc387c440c07ff5180fe9a/detection/f-004a2dc3ec7b98fa7fe6ae9c23a8b051ec30bcfcd2bc387c440c07ff5180fe9a-1606341694",
+                    "category": "Payload delivery",
+                    "uuid": "adfa8063-bf47-421e-91f0-651a138fd5ca"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "58/69",
+                    "category": "Payload delivery",
+                    "uuid": "0f674ac5-00ba-4041-86d3-ed87e938a86e"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ba465669-584e-4428-b1bc-8a8e56072fa4",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "pattern": "[file:hashes.MD5 = '43445fbe21cf3512724646a284d3e5d7' AND file:hashes.SHA1 = '07d4bcb5b969a01fb21dc28e5cb1b7ceb05f2912' AND file:hashes.SHA256 = '28f3f5a3ea270d9b896fe38b9df79a6ca430f5edab0423b3d834cf8d586f13e6']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:39Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--13b55e21-1bec-4e2a-9d27-0d28b919434f",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-25T14:19:11+00:00",
+                    "category": "Other",
+                    "uuid": "1f419ed7-d663-4fcf-aecc-6cddb6a453a3"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/28f3f5a3ea270d9b896fe38b9df79a6ca430f5edab0423b3d834cf8d586f13e6/detection/f-28f3f5a3ea270d9b896fe38b9df79a6ca430f5edab0423b3d834cf8d586f13e6-1606313951",
+                    "category": "Payload delivery",
+                    "uuid": "475f57d4-31f1-48d2-8a6f-c0f63532b18a"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "56/69",
+                    "category": "Payload delivery",
+                    "uuid": "54a02634-b414-40fd-ba4d-5acd8f83a222"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--17583e77-74e5-4ade-a66f-db2e20e483d4",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "pattern": "[file:hashes.MD5 = 'b9dcee839437a917dde60eff9b6014b1' AND file:hashes.SHA1 = '069ef8443df750e9f72ebe4ed93c3e472a2396e2' AND file:hashes.SHA256 = '2d01c32d51e4bbb986255e402da4624a61b8ae960532fbb7bb0d3b0080cb9946']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:39Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--988ecb34-22bb-4c5e-869a-db3c44e73de7",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-16T16:01:02+00:00",
+                    "category": "Other",
+                    "uuid": "dbbc0ea0-2f65-47b4-8ee4-dd8785e70a3c"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/2d01c32d51e4bbb986255e402da4624a61b8ae960532fbb7bb0d3b0080cb9946/detection/f-2d01c32d51e4bbb986255e402da4624a61b8ae960532fbb7bb0d3b0080cb9946-1605542462",
+                    "category": "Payload delivery",
+                    "uuid": "6ecb327f-7fa5-4650-840d-1315545b1712"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "57/70",
+                    "category": "Payload delivery",
+                    "uuid": "592441af-375c-4e9b-bfdc-0f1c3b486806"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b44424f8-91b4-490d-8500-efacd8a13cfb",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "pattern": "[file:hashes.MD5 = '72d118b8e7560cc99c894d985d2c2978' AND file:hashes.SHA1 = '3fd4783920dac610052c9e135cd52b81d3876c6b' AND file:hashes.SHA256 = 'f1ba626b8181bd1cd84f47f70838d9fa4d8117fac3bd07cbd73cb6f73b1297f8']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:39Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--2f3790f6-642c-403c-8431-6c9701b6167b",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-27T01:05:07+00:00",
+                    "category": "Other",
+                    "uuid": "adcad2ff-523b-4992-847b-e98a02337174"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/f1ba626b8181bd1cd84f47f70838d9fa4d8117fac3bd07cbd73cb6f73b1297f8/detection/f-f1ba626b8181bd1cd84f47f70838d9fa4d8117fac3bd07cbd73cb6f73b1297f8-1606439107",
+                    "category": "Payload delivery",
+                    "uuid": "42e3f766-eea7-4488-940c-a5b2e2fb3bb1"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "37/69",
+                    "category": "Payload delivery",
+                    "uuid": "6a3b72b9-3753-4a2c-b64a-d89c109c06f7"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e5a467d0-1e18-4cae-a708-15ca3d14f9b4",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "pattern": "[file:hashes.MD5 = '9f71f74c9febf27d3c71d4593856565a' AND file:hashes.SHA1 = '818bc5112671077a2fc2cde130a1d9d310f68913' AND file:hashes.SHA256 = 'e3ef50749f144bfd7f5d7d51aaa9e2332b706c4d8ac130fdc95f50662525f6e0']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:39Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--7958e8a6-e292-4740-81ca-eb75a9a47d47",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-27T08:07:28+00:00",
+                    "category": "Other",
+                    "uuid": "ba3ec290-5b7e-41e3-b45f-dc0654ba5e2f"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/e3ef50749f144bfd7f5d7d51aaa9e2332b706c4d8ac130fdc95f50662525f6e0/detection/f-e3ef50749f144bfd7f5d7d51aaa9e2332b706c4d8ac130fdc95f50662525f6e0-1606464448",
+                    "category": "Payload delivery",
+                    "uuid": "b7dea80e-7692-4074-8a7f-579a27717ad6"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "0/60",
+                    "category": "Payload delivery",
+                    "uuid": "1e26cfad-3563-407e-98ce-2e4b19a0d17c"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--47ab1fff-99b1-4a8f-ac26-2fdcdabf26fe",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "pattern": "[file:hashes.MD5 = '6a04bfcc5465b0164eed89b28f61a787' AND file:hashes.SHA1 = '6b32973458045540fd6482bcb2e16dcd718485c9' AND file:hashes.SHA256 = '9fffabede0ef679970666f04184340437cd70bc8fe870ee8174713ececf32398']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:39Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--09ceb2d2-eb7e-4a16-bc57-29afde1aeeed",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-16T15:46:40+00:00",
+                    "category": "Other",
+                    "uuid": "cfba3358-0d04-4db5-9b60-262c0d33fc14"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/9fffabede0ef679970666f04184340437cd70bc8fe870ee8174713ececf32398/detection/f-9fffabede0ef679970666f04184340437cd70bc8fe870ee8174713ececf32398-1605541600",
+                    "category": "Payload delivery",
+                    "uuid": "460dc333-dd24-45a4-a71b-ec890a3afcc1"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "48/65",
+                    "category": "Payload delivery",
+                    "uuid": "d7054b2b-6a0d-4a15-a9a9-7153b83ef5e5"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--9510dcf9-150b-41e5-b913-e36a1547e4a1",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "pattern": "[file:hashes.MD5 = '53d183302b3933b7338e1ce00d893ece' AND file:hashes.SHA1 = '51ba154f3227eac229e4c1709333d0053655fb1c' AND file:hashes.SHA256 = '410afc5daebd7b39410b046286b814bb5fb5f9139167cd310bc59cc4461d4083']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:39Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--e8981eda-4685-4231-b3ea-5188b9c16ead",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-27T08:07:23+00:00",
+                    "category": "Other",
+                    "uuid": "b661a57c-8518-40fe-b4e0-89f937ae816a"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/410afc5daebd7b39410b046286b814bb5fb5f9139167cd310bc59cc4461d4083/detection/f-410afc5daebd7b39410b046286b814bb5fb5f9139167cd310bc59cc4461d4083-1606464443",
+                    "category": "Payload delivery",
+                    "uuid": "80446004-61a1-4779-aa25-5758191792a5"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "0/60",
+                    "category": "Payload delivery",
+                    "uuid": "08d09adf-83de-483d-aacb-8728cafffe03"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--19b4a708-3497-486e-883d-02bc6e796e06",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "pattern": "[file:hashes.MD5 = 'c2b848832283e7b8d8f72909da729bc0' AND file:hashes.SHA1 = '013f1f3f2a306f3f0f94b48f949325a70a997746' AND file:hashes.SHA256 = 'c9d46c319ed01c183598f7b9a60b9bca34b2eea989f4659e9aa27c7a1bf8681c']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:39Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--79a5210a-c48a-4e64-bfae-a504be65114c",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-16T15:46:43+00:00",
+                    "category": "Other",
+                    "uuid": "ff8a2b0b-7899-4b6b-9108-0ce2840af188"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/c9d46c319ed01c183598f7b9a60b9bca34b2eea989f4659e9aa27c7a1bf8681c/detection/f-c9d46c319ed01c183598f7b9a60b9bca34b2eea989f4659e9aa27c7a1bf8681c-1605541603",
+                    "category": "Payload delivery",
+                    "uuid": "b4c7c0fc-6302-4a50-9b63-f6c4d0d96f3d"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "48/67",
+                    "category": "Payload delivery",
+                    "uuid": "54bc1843-6dfb-4b04-884a-5310e9c7e93e"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c25cbed6-51cb-4031-b4a9-b2c022c819b6",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "pattern": "[file:hashes.MD5 = '49a6fb8ee6a08459a404b27f9e2b868b' AND file:hashes.SHA1 = '5da8a11917e18dbf81033f973c0a2f0d8854e43b' AND file:hashes.SHA256 = '7222c8acc69a7598989c335d528b366f801a41b434cbf928c6aef01f8e54f57a']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:39Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--d74f7fc9-73c8-418e-861c-deb6e2078070",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-27T00:56:57+00:00",
+                    "category": "Other",
+                    "uuid": "de402bde-2bca-4c2a-8550-985a6f197f54"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/7222c8acc69a7598989c335d528b366f801a41b434cbf928c6aef01f8e54f57a/detection/f-7222c8acc69a7598989c335d528b366f801a41b434cbf928c6aef01f8e54f57a-1606438617",
+                    "category": "Payload delivery",
+                    "uuid": "655bdcb4-7ef1-4ec2-ad89-613df0e7ccf3"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "49/70",
+                    "category": "Payload delivery",
+                    "uuid": "3efa3285-4fd7-4bbb-be3f-d5271acdfbe8"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--92080893-0f34-460d-8899-99f7cbd0d680",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:39.000Z",
+            "modified": "2020-11-27T14:07:39.000Z",
+            "pattern": "[file:hashes.MD5 = '53c9924df26b5043f91352f59a9ffe9f' AND file:hashes.SHA1 = 'aa2745c2d5ef7dbc239544c69b3e27193fa6049c' AND file:hashes.SHA256 = 'b027467332243c8186e59f68ff7c43c9e212d9e5074fedf003febcfedad4381a']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:39Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--a8540f6a-bf63-4f19-85e4-2af8bb931dd6",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-14T20:11:56+00:00",
+                    "category": "Other",
+                    "uuid": "74987204-73e1-4dcd-a6ed-afc6d8eec16c"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/b027467332243c8186e59f68ff7c43c9e212d9e5074fedf003febcfedad4381a/detection/f-b027467332243c8186e59f68ff7c43c9e212d9e5074fedf003febcfedad4381a-1605384716",
+                    "category": "Payload delivery",
+                    "uuid": "50d56407-3f86-46e5-91d6-b312ad52bc22"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "49/71",
+                    "category": "Payload delivery",
+                    "uuid": "63ae2a33-0a5a-4dbd-9e6e-e9f323602494"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--567cf864-68d7-48d6-a46c-f844eb6a6f88",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "pattern": "[file:hashes.MD5 = '1cca16fe0ccf7e856dba71c8959865ad' AND file:hashes.SHA1 = '38d3658ec45e949623278a8174981d18174ea91a' AND file:hashes.SHA256 = '561092877e91f2741ed061cbe7a57d1af552b600c6654ccc588cb6bff7939152']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:40Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--84145e3f-4739-4bfa-a8e0-bdb028d4bcea",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-27T00:53:30+00:00",
+                    "category": "Other",
+                    "uuid": "3186db81-6a10-4b53-9239-91a346e91dcb"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/561092877e91f2741ed061cbe7a57d1af552b600c6654ccc588cb6bff7939152/detection/f-561092877e91f2741ed061cbe7a57d1af552b600c6654ccc588cb6bff7939152-1606438410",
+                    "category": "Payload delivery",
+                    "uuid": "427a731a-96e2-4095-852e-756e0e00cc63"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "50/66",
+                    "category": "Payload delivery",
+                    "uuid": "d4ee7871-1bc5-4194-9d99-8ed8a75a624b"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--6e8e34ab-431a-4d24-9765-cb70cab1a1d3",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "pattern": "[file:hashes.MD5 = '59c474473874115c2e3e7b9bf5793b6b' AND file:hashes.SHA1 = '26df23a4cbeca13cd298571f47cc5eb3d67c9bfd' AND file:hashes.SHA256 = '386cf4e151bc7510c3333eb1a5c96ab1b7becd8cfb94bcb76e93458078daf66f']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:40Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--46d36b17-64ff-4412-989f-acdd77c69394",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-27T08:07:16+00:00",
+                    "category": "Other",
+                    "uuid": "58948999-9481-4014-9d60-13c8bc6e34d4"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/386cf4e151bc7510c3333eb1a5c96ab1b7becd8cfb94bcb76e93458078daf66f/detection/f-386cf4e151bc7510c3333eb1a5c96ab1b7becd8cfb94bcb76e93458078daf66f-1606464436",
+                    "category": "Payload delivery",
+                    "uuid": "b09caaca-8233-4a2b-a56d-f7536c585041"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "0/62",
+                    "category": "Payload delivery",
+                    "uuid": "ad848794-0b69-4809-a562-7a856da279bd"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--7d17c216-41bc-4d87-9a40-98a3b01d2bda",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "pattern": "[file:hashes.MD5 = 'a24ef21df2c942530fd41284c1773e6b' AND file:hashes.SHA1 = 'ae964ba3a50c4dd543472e1e9daea04696ffe51b' AND file:hashes.SHA256 = '5455d104e693445dce5567236f4e047617bae7f09d5ca8699a838c2d17d37fb3']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:40Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--5be430cb-a5f4-4d92-b5be-570b3cca50de",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-27T08:07:27+00:00",
+                    "category": "Other",
+                    "uuid": "77b2912b-ca82-491c-8e33-0aee9610a2e2"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/5455d104e693445dce5567236f4e047617bae7f09d5ca8699a838c2d17d37fb3/detection/f-5455d104e693445dce5567236f4e047617bae7f09d5ca8699a838c2d17d37fb3-1606464447",
+                    "category": "Payload delivery",
+                    "uuid": "23f55415-548a-4b9d-b92e-4a4eaf0ff3d9"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "0/60",
+                    "category": "Payload delivery",
+                    "uuid": "ea435c86-86db-476a-8813-32cd6b34fc65"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--046651a5-adf6-428a-9831-45f361bded36",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "pattern": "[file:hashes.MD5 = '1c268458ec2e4b3f93241eb7fa5dba22' AND file:hashes.SHA1 = '54efafa085ecbe46b09527664944536b99c7c599' AND file:hashes.SHA256 = '072ab57f9db16d9fb92009c8e10b176bd4a2eff01c3bc6e190020cf5a0055505']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:40Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--467a4633-96c9-4bb0-b34d-dbcee67a71df",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-16T15:46:37+00:00",
+                    "category": "Other",
+                    "uuid": "4443946c-94cb-4e5e-b4f3-1979b89a51fd"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/072ab57f9db16d9fb92009c8e10b176bd4a2eff01c3bc6e190020cf5a0055505/detection/f-072ab57f9db16d9fb92009c8e10b176bd4a2eff01c3bc6e190020cf5a0055505-1605541597",
+                    "category": "Payload delivery",
+                    "uuid": "58bbe409-70be-44d0-8335-8329cc10a228"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "50/67",
+                    "category": "Payload delivery",
+                    "uuid": "46239134-41e1-4f34-ac6b-86c874b8d4fc"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--48c374dc-b8b4-40a7-b1e9-8f045d5ec4f3",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "pattern": "[file:hashes.MD5 = 'afb142ddb812e8ac28c65d3923d67969' AND file:hashes.SHA1 = 'cf4989c59e27b5c962488bbf118c47f78b471400' AND file:hashes.SHA256 = '3dba9fbef8f8a42ecfa65022b8a3c54738d15ef67c666272078b58b3c9a0a414']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:40Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--0efde995-6a23-4e63-b99c-87b832578777",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-27T08:07:19+00:00",
+                    "category": "Other",
+                    "uuid": "d6cda59c-d35e-4891-afda-6bb63b64f309"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/3dba9fbef8f8a42ecfa65022b8a3c54738d15ef67c666272078b58b3c9a0a414/detection/f-3dba9fbef8f8a42ecfa65022b8a3c54738d15ef67c666272078b58b3c9a0a414-1606464439",
+                    "category": "Payload delivery",
+                    "uuid": "7ba7fa99-ff32-4a38-9d76-6d5a80ad1f60"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "0/57",
+                    "category": "Payload delivery",
+                    "uuid": "f8e4bf65-0d03-4539-a2c2-90bf0478df35"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--8a270f9e-a320-44c9-9235-9b1501ec37f7",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "pattern": "[file:hashes.MD5 = '4858380a7ff04571f485785f9a80b24f' AND file:hashes.SHA1 = '47af78c65b319db497d54b1ba95c9a6d3d8e9235' AND file:hashes.SHA256 = '49b3d9c3bd6b6a13f89f0e849d80531454cc5cd259cbb7c8a806c67cd403575e']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:40Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--8ce10412-621c-49e7-aca8-ed9fb81564a6",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-27T08:07:25+00:00",
+                    "category": "Other",
+                    "uuid": "e0ba4ae9-87d4-4ec9-b2dc-fb103cce9c3a"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/49b3d9c3bd6b6a13f89f0e849d80531454cc5cd259cbb7c8a806c67cd403575e/detection/f-49b3d9c3bd6b6a13f89f0e849d80531454cc5cd259cbb7c8a806c67cd403575e-1606464445",
+                    "category": "Payload delivery",
+                    "uuid": "0e2d8372-52f2-48fb-9d05-a0b9dac1ac05"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "0/60",
+                    "category": "Payload delivery",
+                    "uuid": "8512edee-a2ce-47eb-b20c-3e78d7a1e7cd"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ea980ee5-7614-4c42-9c8d-a2d7a628177b",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "pattern": "[file:hashes.MD5 = '1b116e0aed51c8d830e080b56a70bb37' AND file:hashes.SHA1 = '2ef7977e16ab287b1bade8cf74470bb69260f41d' AND file:hashes.SHA256 = '1a722cde21a4338b26bc37401ef963022d97cea141c985e6615a10287f8d02ff']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:40Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--cd62008b-bd96-4542-8e5f-9344d3250a48",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-26T14:16:59+00:00",
+                    "category": "Other",
+                    "uuid": "d03bed96-f676-473c-9a51-1da925b73151"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/1a722cde21a4338b26bc37401ef963022d97cea141c985e6615a10287f8d02ff/detection/f-1a722cde21a4338b26bc37401ef963022d97cea141c985e6615a10287f8d02ff-1606400219",
+                    "category": "Payload delivery",
+                    "uuid": "8712cf1e-2437-4c18-a15a-a6d12227fdd5"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "0/60",
+                    "category": "Payload delivery",
+                    "uuid": "d6eb144f-87ab-4490-b7df-7929fde9f3f7"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a28e00ce-b822-427e-b079-843a25ba6a20",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "pattern": "[file:hashes.MD5 = '1cc47a49ac4082cd78244ca46a8eef4d' AND file:hashes.SHA1 = '21e64bfccb226adcef4754213e29b0c09551f470' AND file:hashes.SHA256 = 'b81d2293b43decd5a401487da952deb32cbb53f118882b97b457a14c67029247']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:40Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--528be816-9ed6-4704-8e72-1aeed9480cf2",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-11T06:44:55+00:00",
+                    "category": "Other",
+                    "uuid": "13f34cbd-72ca-4e57-bc0c-16ce7b642a63"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/b81d2293b43decd5a401487da952deb32cbb53f118882b97b457a14c67029247/detection/f-b81d2293b43decd5a401487da952deb32cbb53f118882b97b457a14c67029247-1605077095",
+                    "category": "Payload delivery",
+                    "uuid": "c4f964b7-e843-46de-bfdd-cd32bdd760f0"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "51/65",
+                    "category": "Payload delivery",
+                    "uuid": "97d457ff-af10-41db-ad63-3767dd4b81ed"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--936c65cd-2c49-4256-b729-d9b4c4276122",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:40.000Z",
+            "modified": "2020-11-27T14:07:40.000Z",
+            "pattern": "[file:hashes.MD5 = 'd1bd2fed0f6947dcb23e4c3da98a772e' AND file:hashes.SHA1 = 'edf4e9b226c9e8935fb38e7c3b864cf93e6d119c' AND file:hashes.SHA256 = '605c2047be7c4a17823ad1fa5c1f94fd105721fce3621dc9148cd3baf352938e']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-11-27T14:07:40Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "file"
+                }
+            ],
+            "labels": [
+                "misp:name=\"file\"",
+                "misp:meta-category=\"file\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "x-misp-object",
+            "spec_version": "2.1",
+            "id": "x-misp-object--baa1bfd9-4c36-4813-a30e-b8e84dd856a5",
+            "created_by_ref": "identity--55f6ea5e-2c60-40e5-964f-47a8950d210f",
+            "created": "2020-11-27T14:07:41.000Z",
+            "modified": "2020-11-27T14:07:41.000Z",
+            "labels": [
+                "misp:name=\"virustotal-report\"",
+                "misp:meta-category=\"misc\""
+            ],
+            "x_misp_attributes": [
+                {
+                    "type": "datetime",
+                    "object_relation": "last-submission",
+                    "value": "2020-11-25T08:45:26+00:00",
+                    "category": "Other",
+                    "uuid": "9f70b46e-9ae5-4246-8e34-2ce74abac443"
+                },
+                {
+                    "type": "link",
+                    "object_relation": "permalink",
+                    "value": "https://www.virustotal.com/gui/file/605c2047be7c4a17823ad1fa5c1f94fd105721fce3621dc9148cd3baf352938e/detection/f-605c2047be7c4a17823ad1fa5c1f94fd105721fce3621dc9148cd3baf352938e-1606293926",
+                    "category": "Payload delivery",
+                    "uuid": "d8684b81-2320-4dfa-bd28-708bb660cd23"
+                },
+                {
+                    "type": "text",
+                    "object_relation": "detection-ratio",
+                    "value": "54/68",
+                    "category": "Payload delivery",
+                    "uuid": "41647af9-72bb-4424-8de0-5d5d788dd0dc"
+                }
+            ],
+            "x_misp_meta_category": "misc",
+            "x_misp_name": "virustotal-report"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--28e9053e-2a6d-4691-b2cd-16efa650efad",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--dae954bf-d717-4db4-9f5c-975c7db3f90e",
+            "target_ref": "x-misp-object--9213f424-626b-40e0-b562-a7f7bc88e3a8"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4ee3e659-44e4-4469-8fd5-51a5d271ae95",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--dd11f943-da32-4ad3-b3ec-2eec523934cb",
+            "target_ref": "x-misp-object--007949e3-cb32-497a-816c-36cab32d9ac2"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cd5a2205-2781-45fa-b649-6e1182c80da4",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--bcf8042f-0b95-4178-a074-45aac53a7c61",
+            "target_ref": "x-misp-object--23893bf9-d6af-4f9a-a771-0c5da6ea7a07"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fd5459a0-9e26-4641-a34f-5b68d42d723e",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--65e672fd-bda4-421a-b845-8ae2187d3a84",
+            "target_ref": "x-misp-object--9ddcd362-1434-4c87-bc0b-3fb2518d1df4"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--534dc68b-a7fe-4234-938c-eccaa61791ea",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--9d66db92-9270-452b-8b61-809f87430946",
+            "target_ref": "x-misp-object--4ec1d2b7-780e-44b4-8b93-5e1eb233ee3c"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--84ed1aed-e907-471a-9178-f3acfe811fae",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--df122a7d-f66d-4cb2-8d33-dcb1a26a7631",
+            "target_ref": "x-misp-object--75f5a863-d2ad-4b75-aed3-57824e1f4b74"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--221196d4-0298-428d-813a-5af7316acf53",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--0e69334e-7f89-4134-93ff-8a78125e76a1",
+            "target_ref": "x-misp-object--f5e9e59f-786a-4061-b160-275c77ad1413"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3b06382f-4f8f-4baf-aa23-12fde308a8d8",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--3accfc2d-699d-4b38-b73b-7f44f6178f86",
+            "target_ref": "x-misp-object--de4cb21f-0c76-4ba7-b6d0-d7bab2efb9fe"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a02a5512-dc87-4123-a8c6-8ea11f1070ad",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--1869f991-c37b-421f-8acf-0ef897b222c1",
+            "target_ref": "x-misp-object--c1cc2a52-510b-43c3-84c3-22ed9fc3b584"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7ef4e797-2a53-4c66-ac12-4c9131381e64",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--14e45266-3407-488f-bf65-a3db1d80eaab",
+            "target_ref": "x-misp-object--67931bd5-bd64-4653-a4f2-69c943ddde2b"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1fdcd523-52a9-4347-a520-af7913e0961d",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--ba465669-584e-4428-b1bc-8a8e56072fa4",
+            "target_ref": "x-misp-object--13b55e21-1bec-4e2a-9d27-0d28b919434f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--061d916d-cb76-4d30-85d7-842b54c4c1e7",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--17583e77-74e5-4ade-a66f-db2e20e483d4",
+            "target_ref": "x-misp-object--988ecb34-22bb-4c5e-869a-db3c44e73de7"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8e6db000-a0bd-4bb5-9d57-c4260937fb0b",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--b44424f8-91b4-490d-8500-efacd8a13cfb",
+            "target_ref": "x-misp-object--2f3790f6-642c-403c-8431-6c9701b6167b"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--df4d6b42-f26c-4f86-894c-03697f8381f5",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--e5a467d0-1e18-4cae-a708-15ca3d14f9b4",
+            "target_ref": "x-misp-object--7958e8a6-e292-4740-81ca-eb75a9a47d47"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e0583f47-9144-41d3-b23c-134da546e1b7",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--47ab1fff-99b1-4a8f-ac26-2fdcdabf26fe",
+            "target_ref": "x-misp-object--09ceb2d2-eb7e-4a16-bc57-29afde1aeeed"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4cbffe9d-5943-454e-bfd4-c37a903c6091",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--9510dcf9-150b-41e5-b913-e36a1547e4a1",
+            "target_ref": "x-misp-object--e8981eda-4685-4231-b3ea-5188b9c16ead"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8bfda837-00bc-41f7-8970-66fb1d520fef",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--19b4a708-3497-486e-883d-02bc6e796e06",
+            "target_ref": "x-misp-object--79a5210a-c48a-4e64-bfae-a504be65114c"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--358f5884-2e06-4cd4-9def-1832cad956d6",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--c25cbed6-51cb-4031-b4a9-b2c022c819b6",
+            "target_ref": "x-misp-object--d74f7fc9-73c8-418e-861c-deb6e2078070"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--240787b2-1e76-4a02-ae33-f9866254ee1d",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--92080893-0f34-460d-8899-99f7cbd0d680",
+            "target_ref": "x-misp-object--a8540f6a-bf63-4f19-85e4-2af8bb931dd6"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fc4e112d-e6fb-46dc-b514-3e6408be9e58",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--567cf864-68d7-48d6-a46c-f844eb6a6f88",
+            "target_ref": "x-misp-object--84145e3f-4739-4bfa-a8e0-bdb028d4bcea"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7b7c491f-926c-4049-9e27-762d477d40b7",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--6e8e34ab-431a-4d24-9765-cb70cab1a1d3",
+            "target_ref": "x-misp-object--46d36b17-64ff-4412-989f-acdd77c69394"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c4a4d4d8-b3ba-462c-9d20-87f12d62c20c",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--7d17c216-41bc-4d87-9a40-98a3b01d2bda",
+            "target_ref": "x-misp-object--5be430cb-a5f4-4d92-b5be-570b3cca50de"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--48b79d5e-f9fd-46d8-a81b-2be9a5b22ae4",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--046651a5-adf6-428a-9831-45f361bded36",
+            "target_ref": "x-misp-object--467a4633-96c9-4bb0-b34d-dbcee67a71df"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a23c7191-dcf0-467b-aafc-01dbeb026fb6",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--48c374dc-b8b4-40a7-b1e9-8f045d5ec4f3",
+            "target_ref": "x-misp-object--0efde995-6a23-4e63-b99c-87b832578777"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--605c7d07-9646-4874-9ca1-1471e1378275",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--8a270f9e-a320-44c9-9235-9b1501ec37f7",
+            "target_ref": "x-misp-object--8ce10412-621c-49e7-aca8-ed9fb81564a6"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ab596297-9898-47ab-b4fd-13e2ff61d202",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--ea980ee5-7614-4c42-9c8d-a2d7a628177b",
+            "target_ref": "x-misp-object--cd62008b-bd96-4542-8e5f-9344d3250a48"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9a12ab17-5666-4bb5-80c6-cf6e208139d7",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--a28e00ce-b822-427e-b079-843a25ba6a20",
+            "target_ref": "x-misp-object--528be816-9ed6-4704-8e72-1aeed9480cf2"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--858e109f-6896-4307-af9b-b5591e4bb16a",
+            "created": "1970-01-01T00:00:00.000Z",
+            "modified": "1970-01-01T00:00:00.000Z",
+            "relationship_type": "analysed-with",
+            "source_ref": "indicator--936c65cd-2c49-4256-b729-d9b4c4276122",
+            "target_ref": "x-misp-object--baa1bfd9-4c36-4813-a30e-b8e84dd856a5"
+        },
+        {
+            "type": "marking-definition",
+            "spec_version": "2.1",
+            "id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+            "created": "2017-01-20T00:00:00.000Z",
+            "definition_type": "tlp",
+            "name": "TLP:WHITE",
+            "definition": {
+                "tlp": "white"
+            }
+        }
+    ]
+}

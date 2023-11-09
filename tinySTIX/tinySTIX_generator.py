@@ -1,6 +1,8 @@
 import cbor2
 import json
-    
+import argparse
+from pathlib import Path    
+
 def map_keys_to_str(data, keyword_conversion_table):
     if isinstance(data, dict):
         new_dict = {}
@@ -62,18 +64,29 @@ def print_data_with_indent(data, indent=0):
     else:
         print(" " * indent + str(data))
 
-with open("properties.json", 'r') as f:
-    property_name_mapping = json.load(f)
-    with open("values.json", 'r') as f:
-        property_name_value_mapping = json.load(f)
-        with open("stix_data.json", "r") as f:
-            stix_data = json.load(f)
+
+def main(properties="properties.json", values="values.json", data_as_file=True, data="stix_data.json", print_data=True, debug=False):
+    with open(properties, 'r') as f:
+        property_name_mapping = json.load(f)
+        with open(values, 'r') as f:
+            property_name_value_mapping = json.load(f)
+
+            if data_as_file:
+                stix_data = ""
+                with open(data, "r") as f:
+                    stix_data = json.load(f)
+            else:
+                stix_data = data
+
             
             # Measure the size of the original STIX data
             original_size = len(str(stix_data).encode('utf-8'))
-            print(f"Original Size: {original_size} bytes")
-            #Original data
-            print(json.dumps(stix_data, indent=4))
+
+            if debug:
+                #Original data
+                print(json.dumps(stix_data, indent=4))
+            if print_data:
+                print(f"Original size: {original_size} bytes")
 
 
             # Encode the STIX data using CBOR
@@ -84,16 +97,21 @@ with open("properties.json", 'r') as f:
             #print(f"CBOR Size: {cbor_size} bytes")
 
             mapped_data = map_keys_and_values_to_int(stix_data, property_name_mapping, property_name_value_mapping)
-            mapped_size = len(str(mapped_data).encode('utf-8'))
+            #mapped_size = len(str(mapped_data).encode('utf-8'))
             #print(f"Mapped Size: {mapped_size} bytes")
-            print(mapped_data, "\n\n")
+            if debug:
+                print(mapped_data, "\n\n")
 
             # # Convert to CBOR format
             cbor_data = cbor2.dumps(mapped_data)
             # # Measure the size of the CBOR-encoded data
             cbor_size = len(cbor_data)
-            print(cbor_data)
-            print(f"\n\nCBOR Size After Integer Conversion: {cbor_size} bytes")
+
+
+            if debug:
+                print(cbor_data)
+            if print_data:
+                print(f"Converted size after integer conversion and CBOR: {cbor_size} bytes")
 
             mapped_data = cbor2.loads(cbor_data)
             unmapped_data = map_keys_to_str(mapped_data, property_name_mapping)
@@ -103,5 +121,40 @@ with open("properties.json", 'r') as f:
 
             # Measure the size of the original and reverted STIX data
             reverted_size = len(str(unmapped_data).encode('utf-8'))
-            print(f"Reverted Size: {reverted_size} bytes")
-            print(f"Original Size: {original_size} bytes")
+
+            if debug:
+                print(f"Reverted Size: {reverted_size} bytes")
+                print(f"Original Size: {original_size} bytes")
+            reduction = (1-float(cbor_size)/float(original_size))*100
+            if print_data:
+                print("Size reduction: {:.2f}%\n\n".format(reduction))
+
+            return (cbor_data, reduction)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Convert STIX <-> tinySTIX")
+    parser.add_argument('-ft',"--feature", choices={"export", "import"}, help="Main feature: {export,import} \n\n" +
+    'export: Export STIX to tinySTIX' +
+   ' import: Import tinySTIX to STIX')
+    parser.add_argument('-f', '--file', nargs='+', type=Path, required=True, help='Path to the file(s) to convert.')
+    parser.add_argument('-s', '--single_output', action='store_true',help='Produce only one result file (in case of multiple input file).')
+    parser.add_argument('-od','--output_dir', type=Path,help='Output path - used in the case of multiple input files when the `single_output` argument is not used.')
+    parser.add_argument('-o', '--output_name', type=Path, help='Output file name - used in the case of a single input')
+    parser.add_argument("-v", "--verbose", action="store_true", help="Enable verbose mode")
+    parser.add_argument('--values_mapping', default="values.json",type=Path, help='Path to the json file for values mapping.')
+    parser.add_argument('--keywords_mapping', default="properties.json",type=Path, help='Path to the json file for keywords mapping.')
+
+    
+    args = parser.parse_args()
+
+    feature = args.feature
+    file = args.file
+    single_output = args.single_output
+    output_dir = args.output_dir
+    output_name = args.output_name
+    verbose_mode = args.verbose
+    values_mapping = args.values_mapping
+    keywords_mapping = args.keywords_mapping
+    print(verbose_mode)
+    #main(values_mapping, keywords_mapping, True, file, verbose_mode)

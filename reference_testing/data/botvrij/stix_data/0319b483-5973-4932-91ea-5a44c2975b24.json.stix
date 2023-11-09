@@ -1,0 +1,582 @@
+{
+    "type": "bundle",
+    "id": "bundle--0319b483-5973-4932-91ea-5a44c2975b24",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:11:03.000Z",
+            "modified": "2021-05-16T16:11:03.000Z",
+            "name": "CUDESO",
+            "identity_class": "organization"
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--0319b483-5973-4932-91ea-5a44c2975b24",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:11:03.000Z",
+            "modified": "2021-05-16T16:11:03.000Z",
+            "name": "Conti Ransomware",
+            "published": "2021-05-16T16:11:32Z",
+            "object_refs": [
+                "indicator--43975236-a4e3-4f9a-8593-999e7ff517b8",
+                "indicator--775cf2b9-e4e7-4614-a812-ebcaddcd55af",
+                "indicator--4b1a186a-6625-4b74-9e08-adea082c10dd",
+                "indicator--0bb1bac1-d081-4fae-9a59-ad7ea164480f",
+                "indicator--89dfd097-2f18-4f55-b4fe-ba7ff2a7a7c0",
+                "indicator--d93386f5-bd1c-46d3-b2db-0a801ce3e1f1",
+                "indicator--57a2782a-e366-4ad5-b589-5193c6eecc1a",
+                "indicator--99285ed7-e3f3-43fa-9200-28e218afdd82",
+                "indicator--945ca2cc-ad72-4869-97b4-81c4cd2b967b",
+                "indicator--86daae30-2c94-45bb-adf8-fad91da96386",
+                "indicator--746de49c-9e9e-431d-b346-f2f8d5b73758",
+                "indicator--ff9c64a6-c9f2-49b3-b07e-0caad283d819",
+                "indicator--afbd17b2-866c-4ebf-8322-02f63f871199",
+                "indicator--e6c9258f-6d55-483d-8195-cfee97c0ace3",
+                "indicator--17f2275c-ec2c-434d-b198-9f151254e1d0",
+                "indicator--504f3b2f-6396-4cdb-ac9f-2f2198fe1a95",
+                "indicator--68c7a476-1eec-4e47-bed5-6feac6b85026",
+                "indicator--cf37aabf-3461-4b6c-97ef-59337fe928ca",
+                "indicator--8a30fd31-438b-4232-81a3-0d6d55e018da",
+                "observed-data--bc0130c0-7f7f-413f-b89a-3f4bc211496f",
+                "url--bc0130c0-7f7f-413f-b89a-3f4bc211496f",
+                "observed-data--186efe83-1d79-429b-9c19-3a477d220f50",
+                "url--186efe83-1d79-429b-9c19-3a477d220f50"
+            ],
+            "labels": [
+                "Threat-Report",
+                "misp:tool=\"MISP-STIX-Converter\"",
+                "misp-galaxy:mitre-attack-pattern=\"Access Token Manipulation - T1134\"",
+                "misp-galaxy:mitre-attack-pattern=\"Application Layer Protocol - T1071\"",
+                "misp-galaxy:mitre-attack-pattern=\"Command and Scripting Interpreter - T1059\"",
+                "misp-galaxy:mitre-attack-pattern=\"Create Account - T1136\"",
+                "misp-galaxy:mitre-attack-pattern=\"Data Encrypted for Impact - T1486\"",
+                "misp-galaxy:mitre-attack-pattern=\"Domain Account - T1087.002\"",
+                "misp-galaxy:mitre-attack-pattern=\"External Proxy - T1090.002\"",
+                "misp-galaxy:mitre-attack-pattern=\"Group Policy Modification - T1484\"",
+                "misp-galaxy:mitre-attack-pattern=\"Impair Defenses - T1562\"",
+                "misp-galaxy:mitre-attack-pattern=\"Network Service Scanning - T1046\"",
+                "misp-galaxy:mitre-attack-pattern=\"OS Credential Dumping - T1003\"",
+                "misp-galaxy:mitre-attack-pattern=\"Pass the Hash - T1550.002\"",
+                "misp-galaxy:mitre-attack-pattern=\"Permission Groups Discovery - T1069\"",
+                "misp-galaxy:mitre-attack-pattern=\"Process Injection - T1055\"",
+                "misp-galaxy:mitre-attack-pattern=\"Remote Desktop Protocol - T1021.001\"",
+                "misp-galaxy:mitre-attack-pattern=\"Remote System Discovery - T1018\"",
+                "misp-galaxy:mitre-attack-pattern=\"SMB/Windows Admin Shares - T1021.002\"",
+                "misp-galaxy:mitre-attack-pattern=\"Service Execution - T1569.002\"",
+                "misp-galaxy:mitre-attack-pattern=\"System Owner/User Discovery - T1033\"",
+                "misp-galaxy:malpedia=\"Conti\""
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--43975236-a4e3-4f9a-8593-999e7ff517b8",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:07.000Z",
+            "modified": "2021-05-16T16:05:07.000Z",
+            "pattern": "[file:name = 'b52c0640957e5032b5160578f8cb99f9b066fde4f9431ee6869b2eea67338f28.dll.exe']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:07Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--775cf2b9-e4e7-4614-a812-ebcaddcd55af",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:07.000Z",
+            "modified": "2021-05-16T16:05:07.000Z",
+            "pattern": "[file:hashes.SHA256 = 'b52c0640957e5032b5160578f8cb99f9b066fde4f9431ee6869b2eea67338f28']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:07Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--4b1a186a-6625-4b74-9e08-adea082c10dd",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:07.000Z",
+            "modified": "2021-05-16T16:05:07.000Z",
+            "pattern": "[file:name = 'icju1.exe']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:07Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0bb1bac1-d081-4fae-9a59-ad7ea164480f",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:07.000Z",
+            "modified": "2021-05-16T16:05:07.000Z",
+            "pattern": "[file:hashes.SHA256 = 'e54f38d06a4f11e1b92bb7454e70c949d3e1a4db83894db1ab76e9d64146ee06']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:07Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--89dfd097-2f18-4f55-b4fe-ba7ff2a7a7c0",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:07.000Z",
+            "modified": "2021-05-16T16:05:07.000Z",
+            "pattern": "[file:name = 'rate_x32.dat']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:07Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--d93386f5-bd1c-46d3-b2db-0a801ce3e1f1",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:07.000Z",
+            "modified": "2021-05-16T16:05:07.000Z",
+            "pattern": "[file:hashes.SHA256 = 'eb79168391e64160883b1b3839ed4045b4fd40da14d6eec5a93cfa9365503586']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:07Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--57a2782a-e366-4ad5-b589-5193c6eecc1a",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:07.000Z",
+            "modified": "2021-05-16T16:05:07.000Z",
+            "pattern": "[file:name = '192145.dll']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:07Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--99285ed7-e3f3-43fa-9200-28e218afdd82",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:32.000Z",
+            "modified": "2021-05-16T16:05:32.000Z",
+            "description": "IcedID",
+            "pattern": "[domain-name:value = 'vaclicinni.xyz']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:32Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"domain\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--945ca2cc-ad72-4869-97b4-81c4cd2b967b",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:32.000Z",
+            "modified": "2021-05-16T16:05:32.000Z",
+            "description": "IcedID",
+            "pattern": "[domain-name:value = 'thulleultinn.club']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:32Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"domain\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--86daae30-2c94-45bb-adf8-fad91da96386",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:32.000Z",
+            "modified": "2021-05-16T16:05:32.000Z",
+            "description": "IcedID",
+            "pattern": "[domain-name:value = 'oxythuler.cyou']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:32Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"domain\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--746de49c-9e9e-431d-b346-f2f8d5b73758",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:32.000Z",
+            "modified": "2021-05-16T16:05:32.000Z",
+            "description": "IcedID",
+            "pattern": "[domain-name:value = 'dictorecovery.cyou']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:32Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"domain\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ff9c64a6-c9f2-49b3-b07e-0caad283d819",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:32.000Z",
+            "modified": "2021-05-16T16:05:32.000Z",
+            "description": "IcedID",
+            "pattern": "[domain-name:value = 'expertulthima.club']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:32Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"domain\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--afbd17b2-866c-4ebf-8322-02f63f871199",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:32.000Z",
+            "modified": "2021-05-16T16:05:32.000Z",
+            "description": "IcedID",
+            "pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '68.183.20.194' AND network-traffic:dst_port = '80']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:32Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"ip-dst|port\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e6c9258f-6d55-483d-8195-cfee97c0ace3",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:32.000Z",
+            "modified": "2021-05-16T16:05:32.000Z",
+            "description": "IcedID",
+            "pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '159.89.140.116' AND network-traffic:dst_port = '443']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:32Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"ip-dst|port\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--17f2275c-ec2c-434d-b198-9f151254e1d0",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:32.000Z",
+            "modified": "2021-05-16T16:05:32.000Z",
+            "description": "IcedID",
+            "pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '83.97.20.160' AND network-traffic:dst_port = '443']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:32Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"ip-dst|port\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--504f3b2f-6396-4cdb-ac9f-2f2198fe1a95",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:43.000Z",
+            "modified": "2021-05-16T16:05:43.000Z",
+            "pattern": "[domain-name:value = 'dimentos.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:43Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"domain\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--68c7a476-1eec-4e47-bed5-6feac6b85026",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:05:43.000Z",
+            "modified": "2021-05-16T16:05:43.000Z",
+            "description": "On port 80",
+            "pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '192.99.178.145' AND network-traffic:dst_port = '80']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:05:43Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"ip-dst|port\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--cf37aabf-3461-4b6c-97ef-59337fe928ca",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:06:04.000Z",
+            "modified": "2021-05-16T16:06:04.000Z",
+            "description": "Proxy",
+            "pattern": "[network-traffic:dst_ref.type = 'ipv4-addr' AND network-traffic:dst_ref.value = '38.135.122.194' AND network-traffic:dst_port = '8080']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:06:04Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Network activity"
+                }
+            ],
+            "labels": [
+                "misp:type=\"ip-dst|port\"",
+                "misp:category=\"Network activity\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--8a30fd31-438b-4232-81a3-0d6d55e018da",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:06:38.000Z",
+            "modified": "2021-05-16T16:06:38.000Z",
+            "pattern": "[/*\r\nYARA Rule Set\r\nAuthor: The DFIR Report\r\nDate: 2021-05-09\r\nIdentifier: 3584\r\nReference: https://thedfirreport.com\r\n*/\r\n\r\n/* Rule Set ----------------------------------------------------------------- */\r\n\r\nimport \"pe\"\r\n\r\nrule icedid_rate_x32 {\r\nmeta:\r\ndescription = \"files - file rate_x32.dat\"\r\nauthor = \"The DFIR Report\"\r\nreference = \"https://thedfirreport.com\"\r\ndate = \"2021-05-09\"\r\nhash1 = \"eb79168391e64160883b1b3839ed4045b4fd40da14d6eec5a93cfa9365503586\"\r\nstrings:\r\n$s1 = \"UAWAVAUATVWSH\" fullword ascii\r\n$s2 = \"UAWAVVWSPH\" fullword ascii\r\n$s3 = \"AWAVAUATVWUSH\" fullword ascii\r\n$s4 = \"update\" fullword ascii /* Goodware String - occured 207 times */\r\n$s5 = \"?klopW@@YAHXZ\" fullword ascii\r\n$s6 = \"?jutre@@YAHXZ\" fullword ascii\r\n$s7 = \"PluginInit\" fullword ascii\r\n$s8 = \"[]_^A\\\\A]A^A_\" fullword ascii\r\n$s9 = \"e8[_^A\\\\A]A^A_]\" fullword ascii\r\n$s10 = \"[_^A\\\\A]A^A_]\" fullword ascii\r\n$s11 = \"Kts=R,4iu\" fullword ascii\r\n$s12 = \"mqr55c\" fullword ascii\r\n$s13 = \"R,4i=Bj\" fullword ascii\r\n$s14 = \"Ktw=R,4iu\" fullword ascii\r\n$s15 = \"Ktu=R,4iu\" fullword ascii\r\n$s16 = \"Kt{=R,4iu\" fullword ascii\r\n$s17 = \"KVL.Mp\" fullword ascii\r\n$s18 = \"Kt|=R,4iu\" fullword ascii\r\n$s19 = \"=8c[Vt8=\" fullword ascii\r\n$s20 = \"Ktx=R,4iu\" fullword ascii\r\ncondition:\r\nuint16(0) == 0x5a4d and filesize < 700KB and\r\n( pe.imphash() == \"15787e97e92f1f138de37f6f972eb43c\" and ( pe.exports(\"?jutre@@YAHXZ\") and pe.exports(\"?klopW@@YAHXZ\") and pe.exports(\"PluginInit\") and pe.exports(\"update\") ) or 8 of them )\r\n}\r\n\r\nrule conti_cobaltstrike_192145 {\r\nmeta:\r\ndescription = \"files - file 192145.dll\"\r\nauthor = \"The DFIR Report\"\r\nreference = \"https://thedfirreport.com\"\r\ndate = \"2021-05-09\"\r\nhash1 = \"29bc338e63a62c24c301c04961084013816733dad446a29c20d4413c5c818af9\"\r\nstrings:\r\n$x1 = \"cmd.exe /c echo NGAtoDgLpvgJwPLEPFdj>\\\"%s\\\"&exit\" fullword ascii\r\n$s2 = \"veniamatquiest90.dll\" fullword ascii\r\n$s3 = \"Quaerat magni assumenda nihil architecto labore ullam autem unde temporibus mollitia illum\" fullword ascii\r\n$s4 = \"Quaerat tempora culpa provident\" fullword ascii\r\n$s5 = \"Velit consequuntur quisquam tempora error\" fullword ascii\r\n$s6 = \"Quo omnis repellat ut expedita temporibus eius fuga error\" fullword ascii\r\n$s7 = \"Dolores ullam tempora error distinctio ut natus facere quibusdam\" fullword ascii\r\n$s8 = \"Corporis minima omnis qui est temporibus sint quo error magnam\" fullword ascii\r\n$s9 = \"Officia sit maiores deserunt nobis tempora deleniti aut et quidem fugit\" fullword ascii\r\n$s10 = \"Rerum tenetur sapiente est tempora qui deserunt\" fullword ascii\r\n$s11 = \"Sed nulla quaerat porro error excepturi\" fullword ascii\r\n$s12 = \"Aut tempore quo cumque dicta ut quia in\" fullword ascii\r\n$s13 = \"Doloribus commodi repudiandae voluptates consequuntur neque tempora ut neque nemo ad ut\" fullword ascii\r\n$s14 = \"Tempore possimus aperiam nam mollitia illum hic at ut doloremque\" fullword ascii\r\n$s15 = \"Dolorum eum ipsum tempora non et\" fullword ascii\r\n$s16 = \"Quas alias illum laborum tempora sit est rerum temporibus dicta et\" fullword ascii\r\n$s17 = \"Et quia aut temporibus enim repellat dolores totam recusandae repudiandae\" fullword ascii\r\n$s18 = \"Sed velit ipsa et dolor tempore sunt nostrum\" fullword ascii\r\n$s19 = \"Veniam voluptatem aliquam et eaque tempore tenetur possimus\" fullword ascii\r\n$s20 = \"Possimus suscipit placeat dolor quia tempora voluptas qui fugiat et accusantium\" fullword ascii\r\ncondition:\r\nuint16(0) == 0x5a4d and filesize < 2000KB and\r\n( pe.imphash() == \"5cf3cdfe8585c01d2673249153057181\" and pe.exports(\"StartW\") or ( 1 of ($x*) or 4 of them ) )\r\n}\r\n\r\nrule conti_cobaltstrike_icju1 {\r\nmeta:\r\ndescription = \"files - file icju1.exe\"\r\nauthor = \"The DFIR Report\"\r\nreference = \"https://thedfirreport.com\"\r\ndate = \"2021-05-09\"\r\nhash1 = \"e54f38d06a4f11e1b92bb7454e70c949d3e1a4db83894db1ab76e9d64146ee06\"\r\nstrings:\r\n$x1 = \"cmd.exe /c echo NGAtoDgLpvgJwPLEPFdj>\\\"%s\\\"&exit\" fullword ascii\r\n$s2 = \"veniamatquiest90.dll\" fullword ascii\r\n$s3 = \"Quaerat magni assumenda nihil architecto labore ullam autem unde temporibus mollitia illum\" fullword ascii\r\n$s4 = \"Quaerat tempora culpa provident\" fullword ascii\r\n$s5 = \"Velit consequuntur quisquam tempora error\" fullword ascii\r\n$s6 = \"Quo omnis repellat ut expedita temporibus eius fuga error\" fullword ascii\r\n$s7 = \"Dolores ullam tempora error distinctio ut natus facere quibusdam\" fullword ascii\r\n$s8 = \"Corporis minima omnis qui est temporibus sint quo error magnam\" fullword ascii\r\n$s9 = \"Officia sit maiores deserunt nobis tempora deleniti aut et quidem fugit\" fullword ascii\r\n$s10 = \"Rerum tenetur sapiente est tempora qui deserunt\" fullword ascii\r\n$s11 = \"Sed nulla quaerat porro error excepturi\" fullword ascii\r\n$s12 = \"Aut tempore quo cumque dicta ut quia in\" fullword ascii\r\n$s13 = \"Doloribus commodi repudiandae voluptates consequuntur neque tempora ut neque nemo ad ut\" fullword ascii\r\n$s14 = \"Tempore possimus aperiam nam mollitia illum hic at ut doloremque\" fullword ascii\r\n$s15 = \"Dolorum eum ipsum tempora non et\" fullword ascii\r\n$s16 = \"Quas alias illum laborum tempora sit est rerum temporibus dicta et\" fullword ascii\r\n$s17 = \"Et quia aut temporibus enim repellat dolores totam recusandae repudiandae\" fullword ascii\r\n$s18 = \"Sed velit ipsa et dolor tempore sunt nostrum\" fullword ascii\r\n$s19 = \"Veniam voluptatem aliquam et eaque tempore tenetur possimus\" fullword ascii\r\n$s20 = \"Possimus suscipit placeat dolor quia tempora voluptas qui fugiat et accusantium\" fullword ascii\r\ncondition:\r\nuint16(0) == 0x5a4d and filesize < 2000KB and\r\n( pe.imphash() == \"a6d9b7f182ef1cfe180f692d89ecc759\" or ( 1 of ($x*) or 4 of them ) )\r\n}\r\n\r\nrule conti_v3 {\r\n\r\nmeta:\r\ndescription = \"conti_yara - file conti_v3.dll\" \r\nauthor = \"pigerlin\" \r\nreference = \"https://thedfirreport.com\" \r\ndate = \"2021-05-09\" \r\nhash1 = \"8391dc3e087a5cecba74a638d50b771915831340ae3e027f0bb8217ad7ba4682\"\r\n\r\nstrings: \r\n$s1 = \"AppPolicyGetProcessTerminationMethod\" fullword ascii \r\n$s2 = \"conti_v3.dll\" fullword ascii \r\n$s3 = \" <requestedExecutionLevel level='asInvoker' uiAccess='false' />\" fullword ascii \r\n$s4 = \" Type Descriptor'\" fullword ascii \r\n$s5 = \"operator co_await\" fullword ascii \r\n$s6 = \" <trustInfo xmlns=\\\"urn:schemas-microsoft-com:asm.v3\\\">\" fullword ascii \r\n$s7 = \"api-ms-win-appmodel-runtime-l1-1-2\" fullword wide \r\n$s8 = \" Base Class Descriptor at (\" fullword ascii \r\n$s9 = \" Class Hierarchy Descriptor'\" fullword ascii \r\n$s10 = \" Complete Object Locator'\" fullword ascii \r\n$s11 = \" delete[]\" fullword ascii \r\n$s12 = \" </trustInfo>\" fullword ascii \r\n$s13 = \"__swift_1\" fullword ascii \r\n$s15 = \"__swift_2\" fullword ascii \r\n$s19 = \" delete\" fullword ascii\r\n\r\ncondition:\r\nuint16(0) == 0x5a4d and filesize < 700KB and\r\nall of them\r\n\r\n}\r\n\r\n\r\nrule conti_cobaltstrike_192145_icju1_0 {\r\nmeta:\r\ndescription = \"files - from files 192145.dll, icju1.exe\"\r\nauthor = \"The DFIR Report\"\r\nreference = \"https://thedfirreport.com\"\r\ndate = \"2021-05-09\"\r\nhash1 = \"29bc338e63a62c24c301c04961084013816733dad446a29c20d4413c5c818af9\"\r\nhash2 = \"e54f38d06a4f11e1b92bb7454e70c949d3e1a4db83894db1ab76e9d64146ee06\"\r\nstrings:\r\n$x1 = \"cmd.exe /c echo NGAtoDgLpvgJwPLEPFdj>\\\"%s\\\"&exit\" fullword ascii\r\n$s2 = \"veniamatquiest90.dll\" fullword ascii\r\n$s3 = \"Quaerat magni assumenda nihil architecto labore ullam autem unde temporibus mollitia illum\" fullword ascii\r\n$s4 = \"Quaerat tempora culpa provident\" fullword ascii\r\n$s5 = \"Dolores ullam tempora error distinctio ut natus facere quibusdam\" fullword ascii\r\n$s6 = \"Velit consequuntur quisquam tempora error\" fullword ascii\r\n$s7 = \"Corporis minima omnis qui est temporibus sint quo error magnam\" fullword ascii\r\n$s8 = \"Quo omnis repellat ut expedita temporibus eius fuga error\" fullword ascii\r\n$s9 = \"Officia sit maiores deserunt nobis tempora deleniti aut et quidem fugit\" fullword ascii\r\n$s10 = \"Rerum tenetur sapiente est tempora qui deserunt\" fullword ascii\r\n$s11 = \"Sed nulla quaerat porro error excepturi\" fullword ascii\r\n$s12 = \"Aut tempore quo cumque dicta ut quia in\" fullword ascii\r\n$s13 = \"Doloribus commodi repudiandae voluptates consequuntur neque tempora ut neque nemo ad ut\" fullword ascii\r\n$s14 = \"Tempore possimus aperiam nam mollitia illum hic at ut doloremque\" fullword ascii\r\n$s15 = \"Et quia aut temporibus enim repellat dolores totam recusandae repudiandae\" fullword ascii\r\n$s16 = \"Dolorum eum ipsum tempora non et\" fullword ascii\r\n$s17 = \"Quas alias illum laborum tempora sit est rerum temporibus dicta et\" fullword ascii\r\n$s18 = \"Sed velit ipsa et dolor tempore sunt nostrum\" fullword ascii\r\n$s19 = \"Veniam voluptatem aliquam et eaque tempore tenetur possimus\" fullword ascii\r\n$s20 = \"Possimus suscipit placeat dolor quia tempora voluptas qui fugiat et accusantium\" fullword ascii\r\ncondition:\r\n( uint16(0) == 0x5a4d and filesize < 2000KB and ( 1 of ($x*) and 4 of them )\r\n) or ( all of them )\r\n}]",
+            "pattern_type": "yara",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-16T16:06:38Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Artifacts dropped"
+                }
+            ],
+            "labels": [
+                "misp:type=\"yara\"",
+                "misp:category=\"Artifacts dropped\""
+            ]
+        },
+        {
+            "type": "observed-data",
+            "spec_version": "2.1",
+            "id": "observed-data--bc0130c0-7f7f-413f-b89a-3f4bc211496f",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:09:41.000Z",
+            "modified": "2021-05-16T16:09:41.000Z",
+            "first_observed": "2021-05-16T16:09:41Z",
+            "last_observed": "2021-05-16T16:09:41Z",
+            "number_observed": 1,
+            "object_refs": [
+                "url--bc0130c0-7f7f-413f-b89a-3f4bc211496f"
+            ],
+            "labels": [
+                "misp:type=\"link\"",
+                "misp:category=\"External analysis\""
+            ]
+        },
+        {
+            "type": "url",
+            "spec_version": "2.1",
+            "id": "url--bc0130c0-7f7f-413f-b89a-3f4bc211496f",
+            "value": "https://thedfirreport.com/2021/05/12/conti-ransomware/"
+        },
+        {
+            "type": "observed-data",
+            "spec_version": "2.1",
+            "id": "observed-data--186efe83-1d79-429b-9c19-3a477d220f50",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-16T16:10:02.000Z",
+            "modified": "2021-05-16T16:10:02.000Z",
+            "first_observed": "2021-05-16T16:10:02Z",
+            "last_observed": "2021-05-16T16:10:02Z",
+            "number_observed": 1,
+            "object_refs": [
+                "url--186efe83-1d79-429b-9c19-3a477d220f50"
+            ],
+            "labels": [
+                "misp:type=\"link\"",
+                "misp:category=\"External analysis\""
+            ]
+        },
+        {
+            "type": "url",
+            "spec_version": "2.1",
+            "id": "url--186efe83-1d79-429b-9c19-3a477d220f50",
+            "value": "https://www.ncsc.gov.ie/pdfs/HSE_Conti_140521.pdf"
+        },
+        {
+            "type": "marking-definition",
+            "spec_version": "2.1",
+            "id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+            "created": "2017-01-20T00:00:00.000Z",
+            "definition_type": "tlp",
+            "name": "TLP:WHITE",
+            "definition": {
+                "tlp": "white"
+            }
+        }
+    ]
+}

@@ -1,0 +1,316 @@
+{
+    "type": "bundle",
+    "id": "bundle--02a470d8-493e-41d9-8367-622460dddbe8",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-22T09:49:53.000Z",
+            "modified": "2021-05-22T09:49:53.000Z",
+            "name": "CUDESO",
+            "identity_class": "organization"
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--02a470d8-493e-41d9-8367-622460dddbe8",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-22T09:49:53.000Z",
+            "modified": "2021-05-22T09:49:53.000Z",
+            "name": "Ransomware Attack Irish on Health Sector",
+            "published": "2021-05-22T09:50:10Z",
+            "object_refs": [
+                "indicator--ae0b2622-0a2b-44c9-bd9b-217b1b2086df",
+                "indicator--b4a9bcc8-3dbc-48e8-8ccd-0edce5bd7da3",
+                "indicator--7fb51040-ee6e-4603-af40-5cec8a73fe89",
+                "indicator--fd52efa1-a88f-42e5-a14b-7ae3f5d7918b",
+                "indicator--0a455910-5080-4ab9-9192-15667c8a3464",
+                "indicator--b6eeae7d-2520-450c-ba64-2806a7d34016",
+                "observed-data--442a38b8-fb07-4ff7-b1e2-47e28f85e5ff",
+                "file--442a38b8-fb07-4ff7-b1e2-47e28f85e5ff",
+                "observed-data--a9bb1e75-5524-47b3-8d4e-b2c837872bf5",
+                "file--a9bb1e75-5524-47b3-8d4e-b2c837872bf5",
+                "indicator--0540ab7d-a9e0-4f50-b063-b9153e17dc44",
+                "observed-data--b8671127-04e2-45c1-883f-2b44b85b83e6",
+                "url--b8671127-04e2-45c1-883f-2b44b85b83e6"
+            ],
+            "labels": [
+                "Threat-Report",
+                "misp:tool=\"MISP-STIX-Converter\"",
+                "misp-galaxy:mitre-attack-pattern=\"Data Encrypted for Impact - T1486\"",
+                "misp-galaxy:mitre-attack-pattern=\"File and Directory Discovery - T1083\"",
+                "misp-galaxy:mitre-attack-pattern=\"Hidden Window - T1564.003\"",
+                "misp-galaxy:mitre-attack-pattern=\"Inhibit System Recovery - T1490\"",
+                "misp-galaxy:mitre-attack-pattern=\"Masquerading - T1036\"",
+                "misp-galaxy:mitre-attack-pattern=\"Native API - T1106\"",
+                "misp-galaxy:mitre-attack-pattern=\"Network Share Discovery - T1135\"",
+                "misp-galaxy:mitre-attack-pattern=\"Process Discovery - T1057\"",
+                "misp-galaxy:mitre-attack-pattern=\"Shared Modules - T1129\"",
+                "misp-galaxy:mitre-attack-pattern=\"Software Packing - T1027.002\"",
+                "misp-galaxy:mitre-attack-pattern=\"System Checks - T1497.001\"",
+                "misp-galaxy:mitre-attack-pattern=\"System Information Discovery - T1082\"",
+                "misp-galaxy:mitre-attack-pattern=\"System Network Configuration Discovery - T1016\"",
+                "misp-galaxy:mitre-attack-pattern=\"System Network Connections Discovery - T1049\"",
+                "misp-galaxy:mitre-attack-pattern=\"System Time Discovery - T1124\"",
+                "misp-galaxy:mitre-attack-pattern=\"Windows Management Instrumentation - T1047\"",
+                "misp-galaxy:malpedia=\"Conti Ransomware\"",
+                "misp-galaxy:mitre-malware=\"Conti - S0575\""
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ae0b2622-0a2b-44c9-bd9b-217b1b2086df",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-17T05:31:19.000Z",
+            "modified": "2021-05-17T05:31:19.000Z",
+            "description": "Conti SHA256",
+            "pattern": "[file:hashes.SHA256 = 'd21c71a090cd6759efc1f258b4d087e82c281ce65a9d76f20a24857901e694fc']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-17T05:31:19Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b4a9bcc8-3dbc-48e8-8ccd-0edce5bd7da3",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-17T05:31:19.000Z",
+            "modified": "2021-05-17T05:31:19.000Z",
+            "description": "Cobalt Strike SHA256",
+            "pattern": "[file:hashes.SHA256 = '234e4df3d9304136224f2a6c37cb6b5f6d8336c4e105afce857832015e97f27a']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-17T05:31:19Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--7fb51040-ee6e-4603-af40-5cec8a73fe89",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-17T05:31:19.000Z",
+            "modified": "2021-05-17T05:31:19.000Z",
+            "description": "Cobalt Strike SHA256",
+            "pattern": "[file:hashes.SHA256 = '1429190cf3b36dae7e439b4314fe160e435ea42c0f3e6f45f8a0a33e1e12258f']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-17T05:31:19Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--fd52efa1-a88f-42e5-a14b-7ae3f5d7918b",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-17T05:31:19.000Z",
+            "modified": "2021-05-17T05:31:19.000Z",
+            "description": "Cobalt Strike SHA256",
+            "pattern": "[file:hashes.SHA256 = '8837868b6279df6a700b3931c31e4542a47f7476f50484bdf907450a8d8e9408']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-17T05:31:19Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0a455910-5080-4ab9-9192-15667c8a3464",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-17T05:31:20.000Z",
+            "modified": "2021-05-17T05:31:20.000Z",
+            "description": "Cobalt Strike SHA256",
+            "pattern": "[file:hashes.SHA256 = 'a390038e21cbf92c36987041511dcd8dcfe836ebbabee733349e0b17af9ad4eb']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-17T05:31:20Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b6eeae7d-2520-450c-ba64-2806a7d34016",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-17T05:32:26.000Z",
+            "modified": "2021-05-17T05:32:26.000Z",
+            "description": "Cobalt Strike SHA256",
+            "pattern": "[file:hashes.SHA256 = 'd4a1cd9de04334e989418b75f64fb2cfbacaa5b650197432ca277132677308ce']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-17T05:32:26Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "observed-data",
+            "spec_version": "2.1",
+            "id": "observed-data--442a38b8-fb07-4ff7-b1e2-47e28f85e5ff",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-17T05:32:26.000Z",
+            "modified": "2021-05-17T05:32:26.000Z",
+            "first_observed": "2021-05-17T05:32:26Z",
+            "last_observed": "2021-05-17T05:32:26Z",
+            "number_observed": 1,
+            "object_refs": [
+                "file--442a38b8-fb07-4ff7-b1e2-47e28f85e5ff"
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\""
+            ]
+        },
+        {
+            "type": "file",
+            "spec_version": "2.1",
+            "id": "file--442a38b8-fb07-4ff7-b1e2-47e28f85e5ff",
+            "name": "EXE.bat"
+        },
+        {
+            "type": "observed-data",
+            "spec_version": "2.1",
+            "id": "observed-data--a9bb1e75-5524-47b3-8d4e-b2c837872bf5",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-17T05:32:26.000Z",
+            "modified": "2021-05-17T05:32:26.000Z",
+            "first_observed": "2021-05-17T05:32:26Z",
+            "last_observed": "2021-05-17T05:32:26Z",
+            "number_observed": 1,
+            "object_refs": [
+                "file--a9bb1e75-5524-47b3-8d4e-b2c837872bf5"
+            ],
+            "labels": [
+                "misp:type=\"filename\"",
+                "misp:category=\"Payload delivery\""
+            ]
+        },
+        {
+            "type": "file",
+            "spec_version": "2.1",
+            "id": "file--a9bb1e75-5524-47b3-8d4e-b2c837872bf5",
+            "name": "_COPY.bat"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0540ab7d-a9e0-4f50-b063-b9153e17dc44",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-17T05:32:26.000Z",
+            "modified": "2021-05-17T05:32:26.000Z",
+            "description": "Lazagne SHA256",
+            "pattern": "[file:hashes.SHA256 = '5a2e947aace9e081ecd2cfa7bc2e485528238555c7eeb6bcca560576d4750a50']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-05-17T05:32:26Z",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "misp-category",
+                    "phase_name": "Payload delivery"
+                }
+            ],
+            "labels": [
+                "misp:type=\"sha256\"",
+                "misp:category=\"Payload delivery\"",
+                "misp:to_ids=\"True\""
+            ]
+        },
+        {
+            "type": "observed-data",
+            "spec_version": "2.1",
+            "id": "observed-data--b8671127-04e2-45c1-883f-2b44b85b83e6",
+            "created_by_ref": "identity--56c42374-fdb8-4544-a218-41ffc0a8ab16",
+            "created": "2021-05-17T05:35:22.000Z",
+            "modified": "2021-05-17T05:35:22.000Z",
+            "first_observed": "2021-05-17T05:35:22Z",
+            "last_observed": "2021-05-17T05:35:22Z",
+            "number_observed": 1,
+            "object_refs": [
+                "url--b8671127-04e2-45c1-883f-2b44b85b83e6"
+            ],
+            "labels": [
+                "misp:type=\"link\"",
+                "misp:category=\"External analysis\""
+            ]
+        },
+        {
+            "type": "url",
+            "spec_version": "2.1",
+            "id": "url--b8671127-04e2-45c1-883f-2b44b85b83e6",
+            "value": "https://www.ncsc.gov.ie/pdfs/HSE_Conti_140521_UPDATE.pdf"
+        },
+        {
+            "type": "marking-definition",
+            "spec_version": "2.1",
+            "id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+            "created": "2017-01-20T00:00:00.000Z",
+            "definition_type": "tlp",
+            "name": "TLP:WHITE",
+            "definition": {
+                "tlp": "white"
+            }
+        }
+    ]
+}

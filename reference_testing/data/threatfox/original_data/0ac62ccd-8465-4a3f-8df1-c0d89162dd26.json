@@ -1,0 +1,3777 @@
+{
+    "Event": {
+        "published": true,
+        "date": "2022-09-22",
+        "threat_level_id": 2,
+        "info": "ThreatFox IOCs for 2022-09-22",
+        "timestamp": 1663891384,
+        "analysis": 1,
+        "event_creator_email": "threatfox@abuse.ch",
+        "distribution": 3,
+        "uuid": "0ac62ccd-8465-4a3f-8df1-c0d89162dd26",
+        "Orgc": {
+            "name": "abuse.ch",
+            "uuid": "9b086132-8588-49ed-97fd-8578a777822c"
+        },
+        "Tag": [
+            {
+                "colour": "#004646",
+                "name": "type:OSINT"
+            },
+            {
+                "colour": "#fffff",
+                "name": "tlp:white"
+            }
+        ],
+        "Attribute": [
+            {
+                "type": "url",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663807206,
+                "uuid": "1a89f5d5-3a0f-11ed-ae73-42010aa4000a",
+                "comment": "Mozi payload delivery URL (confidence level: 50%)",
+                "value": "http://117.195.93.210:59072/mozi.m",
+                "Tag": []
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663812999,
+                "uuid": "97a321f2-3a1c-11ed-ae73-42010aa4000a",
+                "comment": "RecordBreaker botnet C2 (confidence level: 100%)",
+                "value": "http://45.8.145.203/",
+                "Tag": [
+                    {
+                        "name": "recordbreaker",
+                        "colour": "#8E5E8B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663816105,
+                "uuid": "d30cd824-3a23-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "https://84.32.188.232:444/ie9compatviewlist.xml",
+                "Tag": [
+                    {
+                        "name": "CHERRYSERVERS2-AS",
+                        "colour": "#0B8654",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663816173,
+                "uuid": "fb890a68-3a23-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "https://45.32.100.98/dot.gif",
+                "Tag": [
+                    {
+                        "name": "AS-CHOOPA",
+                        "colour": "#ED076A",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663816174,
+                "uuid": "fc16185b-3a23-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "45.32.100.98|443",
+                "Tag": [
+                    {
+                        "name": "AS-CHOOPA",
+                        "colour": "#ED076A",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663816270,
+                "uuid": "350a2e9a-3a24-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "https://dcuj1gece5t28.cloudfront.net/safebrowsing/utzocpdlc/lmmt3yw6kq86l2-ydwl8cd9bif-c3spqx3",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "DIGITALOCEAN-ASN",
+                        "colour": "#CA12B4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663816271,
+                "uuid": "35e6f77b-3a24-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "https://d2u9rmrrifg8yn.cloudfront.net/safebrowsing/utzocpdlc/lmmt3yw6kq86l2-ydwl8cd9bif-c3spqx3",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "DIGITALOCEAN-ASN",
+                        "colour": "#CA12B4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663816272,
+                "uuid": "36b0773a-3a24-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "137.184.224.141|443",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "DIGITALOCEAN-ASN",
+                        "colour": "#CA12B4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663816418,
+                "uuid": "8d62bd82-3a24-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "http://3.238.186.201/owa/klu1whaevo2ntykjx8ymezya0w5x0nh",
+                "Tag": [
+                    {
+                        "name": "AMAZON-AES",
+                        "colour": "#6825D4",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663816444,
+                "uuid": "9d1fb77e-3a24-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "3.238.186.201|80",
+                "Tag": [
+                    {
+                        "name": "AMAZON-AES",
+                        "colour": "#6825D4",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663816576,
+                "uuid": "ebcf693b-3a24-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "https://61c29c85405f0792.azureedge.net/safebrowsing/bejow-uc/ppjkqkru254uyhitedgse5",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "DIGITALOCEAN-ASN",
+                        "colour": "#CA12B4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663816583,
+                "uuid": "efe88a02-3a24-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "https://didgwf4758vpk.cloudfront.net/safebrowsing/bejow-uc/ppjkqkru254uyhitedgse5",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "DIGITALOCEAN-ASN",
+                        "colour": "#CA12B4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663816584,
+                "uuid": "f0a37efb-3a24-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "https://1bb1393a0054ca93.azureedge.net/safebrowsing/bejow-uc/ppjkqkru254uyhitedgse5",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "DIGITALOCEAN-ASN",
+                        "colour": "#CA12B4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663816586,
+                "uuid": "f1719441-3a24-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "137.184.12.101|443",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "DIGITALOCEAN-ASN",
+                        "colour": "#CA12B4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817036,
+                "uuid": "fdf5f642-3a25-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 100%)",
+                "value": "9a9f97730428c5ebf9993dcbf5facd3710859edc5636fc9a84cac75072cf7e5e",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817036,
+                "uuid": "fdfada16-3a25-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 100%)",
+                "value": "7f1ba4a87aaa62acbd2282165a1d8a8f3788dd6917c5edce645fca58a447bfc4",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817036,
+                "uuid": "fdfebcd1-3a25-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 100%)",
+                "value": "670d9506447810496c9bbea0bcbb8b66aec996c52535f3cc343452d4318dce80",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817036,
+                "uuid": "fe02d53d-3a25-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 100%)",
+                "value": "b35a514d0b7a7c836bcd45f6da69bb4b139849db7ddae8110500db97c3251b18",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817036,
+                "uuid": "fe06dd4a-3a25-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 100%)",
+                "value": "20aaa74f3edd79336be135134482da2d1ab627fe90a4606869870b0c9bd7bde0",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817036,
+                "uuid": "fe0b2f2e-3a25-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 100%)",
+                "value": "77b7758c451f9937848e83eb12fdfae2b7e555fba1e2c3816170fefe87439e23",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817036,
+                "uuid": "fe0ffec0-3a25-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 100%)",
+                "value": "1bb6c683b522c24df205a6a172c7c22a8980d8053f033ccd436456c7c852a69d",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817036,
+                "uuid": "fe178c31-3a25-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 100%)",
+                "value": "bd4fea117a02c696dfe0569ae5493b91f6708da188cb314e671bf39ee6361c37",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817037,
+                "uuid": "fe200066-3a25-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 100%)",
+                "value": "2ee080450a727d2484e2fd49ca94328c63befbe83113838f293379f4709cfc11",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817037,
+                "uuid": "fe292540-3a25-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 100%)",
+                "value": "f3d6eb3da9b43c86b6610370d64e086c2af8d8511a4f05862e4ea312fb0211ca",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817037,
+                "uuid": "fe303b76-3a25-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 100%)",
+                "value": "3b15c4b70c129e787422670b475613b15b70c73565445c7f7de89debaa7340f0",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817368,
+                "uuid": "c3e00722-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "7fa94a5ecff6dd8cadd53c76853da529da322fef102f23b1b09f335238c31dfd",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817368,
+                "uuid": "c3e50c49-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "53a95222b2d47e3b44240183d0eafbc7f64bcbd88bbe61af3580ab00c5f0ff85",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817368,
+                "uuid": "c3e8fc47-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "720d90ad498171d943399e010d4aa16cc65f69bbff6f042d6b364813cfd168bb",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817368,
+                "uuid": "c3ed43f1-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "f83628e8db4f7c65ed636e17a1ab69a2b0f14a7e1cf9afca77b682b6d51f8677",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817368,
+                "uuid": "c3f20ffc-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "5e87d1641a172f6d48cff1811254bd74640838bd75aab140c9b6a4c35c35aeec",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817368,
+                "uuid": "c3f7c84b-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "929ce92a6849a9052fd6eb1c92d1bbba866f4a1762839a1714ab23aa90fe2297",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817368,
+                "uuid": "c3fbd06b-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "f4c3fea5e9c60cf76e1e16204fbc9f7cb7f63d1d16339fa665f6fc2aab845e39",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817368,
+                "uuid": "c3ffe896-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "48b8a0489b885816b349cfbd4987202cccb6df63957e024923273215a739a810",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c404383a-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "1d959cf6e366a2217cfef71d9df9e9835c2b1bd7e21b73f345ca621fb05e289e",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c4088471-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "0f86a303ae4c0a7966e66f1f908183f6f1876e56f49de5c1f8ba5d1c2fab195a",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c40cdfe5-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "426e74bf11d78c21fe952b46371f014b7adef3d0c170ca62b69eb7862f67313d",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c410d393-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "93b763cc79cbb7754a028003e6914491da5898c5861ac0de550e2237b53f12c1",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c414a471-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "1b395afd0cdb4552ec57d408686c24f62b4d15d0ef13146468a71cfbda9e55a1",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c4190b1c-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "dde99d2ebadfd99b7ecfa144967b5c9d30aa78679b2bb9425be478bb8f5fea3e",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c41d3890-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "28c9311cf58a72d4f23a3abd698c33275a34ff3cbf104680c113dfb4e9d1c5ec",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c421733b-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "c6a9aa7e0a62bdbd7ed39273a2e117e8b6efa5c1c535a0a521fa75cb82d0ca95",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c42546aa-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "cad4f8e97cce74c98356096f153231cf9622da0a534d5a24a3e4ed770d668ac8",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c42915f8-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "fbb5b909d03d5cb5bb3e8b50280b83f49c7a507277f779e6884fcce7f14de042",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c42ce281-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "23037e71ab8a3fdb3cd81c52a11f50e0d72e22703fdff8e05c45eb0ac0fb829b",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c430fd85-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "bf35e7ee59cf81f74be092d43acbb711377f115426db8e9f6f45fa1bbb3086b7",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c4350f21-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "1d20310fec07f4cfd387fca7c5bc9e33f2230aa4e7d73c807c0b5d40394f66c4",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c438f9d1-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "3f39ee57fa6bebbbade5c9e263939ea1f46e9eea2af49ce3dc6fbd2366f75902",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c43c7244-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "b886242723bd9c498d27270a8b539c074b47682307b74d2c8cc91007c07bfa28",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c43ff6cc-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "6f65bc7ad58ce2f17dec79d9dda14c31d73587552b72e7d90b5b827c1a80c9c6",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c44385cb-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "be0aa617cee2a480451d246ea0c2d42fc6aad4f5f473c4b03b920db808a06ebe",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c4476b18-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "e2b1d28dd8b9d265af6678f588fa67d00e9ff4a96c6978a0aa8742a090436bb5",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c44af442-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "4d231cf9db3176c6d82357c2feec657b8d8cd59cc6d0fb403a5ba243ea023773",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c44e7272-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "510c64f55f86258af15ae33481f17ec9868bf4e41a5d21ce630400f0e6fcf7a1",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c4539bac-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "9b132f152d0f26835a0e5534c7448838ea908b54acc2b8283f8e1d70c9468580",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c4572f29-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "b42bb1a0228b29babb878c661662c4aaf8741fb3c8078bc421b700d90800390c",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c45a9423-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "197a187ab432614e6baee849387db760d1519980899e1ed6df36b4c062772c65",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663817369,
+                "uuid": "c45e24da-3a26-11ed-ae73-42010aa4000a",
+                "comment": "Agent Tesla payload (confidence level: 75%)",
+                "value": "48eda12c59b8c6b6b19dfe8dcc1158f934bb7acbe52c0a5b744b493688e7460a",
+                "Tag": [
+                    {
+                        "name": "agent tesla",
+                        "colour": "#00A0DC",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663818639,
+                "uuid": "b987210b-3a29-11ed-ae73-42010aa4000a",
+                "comment": "RecordBreaker botnet C2 (confidence level: 100%)",
+                "value": "http://80.92.205.130/",
+                "Tag": [
+                    {
+                        "name": "recordbreaker",
+                        "colour": "#8E5E8B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663825207,
+                "uuid": "03d54e8a-3a39-11ed-ae73-42010aa4000a",
+                "comment": "XOR DDoS botnet C2 server (confidence level: 75%)",
+                "value": "54.36.15.96|6003",
+                "Tag": [
+                    {
+                        "name": "xorddos",
+                        "colour": "#5CEAE7",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663827357,
+                "uuid": "057d9dde-3a3e-11ed-ae73-42010aa4000a",
+                "comment": "Astaroth botnet C2 domain (confidence level: 100%)",
+                "value": "felipeemarlimarketingl.link",
+                "Tag": [
+                    {
+                        "name": "guildma",
+                        "colour": "#81BA12",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663827357,
+                "uuid": "05853244-3a3e-11ed-ae73-42010aa4000a",
+                "comment": "Astaroth botnet C2 domain (confidence level: 100%)",
+                "value": "clus.ga",
+                "Tag": [
+                    {
+                        "name": "guildma",
+                        "colour": "#81BA12",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663827357,
+                "uuid": "058ac703-3a3e-11ed-ae73-42010aa4000a",
+                "comment": "Astaroth botnet C2 domain (confidence level: 100%)",
+                "value": "sophiaemarlibuffetme.link",
+                "Tag": [
+                    {
+                        "name": "guildma",
+                        "colour": "#81BA12",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663827357,
+                "uuid": "05911c2d-3a3e-11ed-ae73-42010aa4000a",
+                "comment": "Astaroth botnet C2 domain (confidence level: 100%)",
+                "value": "yiuahd.sophiaemarlibuffetme.link",
+                "Tag": [
+                    {
+                        "name": "guildma",
+                        "colour": "#81BA12",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663827357,
+                "uuid": "0596fb64-3a3e-11ed-ae73-42010aa4000a",
+                "comment": "Astaroth botnet C2 domain (confidence level: 100%)",
+                "value": "f4iidk.felipeemarlimarketingl.link",
+                "Tag": [
+                    {
+                        "name": "guildma",
+                        "colour": "#81BA12",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663827357,
+                "uuid": "059bcaf1-3a3e-11ed-ae73-42010aa4000a",
+                "comment": "Astaroth botnet C2 domain (confidence level: 100%)",
+                "value": "vjur2fho2j3.clus.ga",
+                "Tag": [
+                    {
+                        "name": "guildma",
+                        "colour": "#81BA12",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663827415,
+                "uuid": "286c7799-3a3e-11ed-ae73-42010aa4000a",
+                "comment": "Astaroth payload delivery domain (confidence level: 100%)",
+                "value": "assessirianricoadvocacia.cloud",
+                "Tag": [
+                    {
+                        "name": "guildma",
+                        "colour": "#81BA12",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663827415,
+                "uuid": "2872d733-3a3e-11ed-ae73-42010aa4000a",
+                "comment": "Astaroth payload delivery domain (confidence level: 100%)",
+                "value": "wraa5f.assessirianricoadvocacia.cloud",
+                "Tag": [
+                    {
+                        "name": "guildma",
+                        "colour": "#81BA12",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663829737,
+                "uuid": "9030f3a2-3a43-11ed-ae73-42010aa4000a",
+                "comment": "Vidar botnet C2 server (confidence level: 100%)",
+                "value": "185.214.10.174|80",
+                "Tag": [
+                    {
+                        "name": "Vidar",
+                        "colour": "#9258A7",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663829737,
+                "uuid": "904cd223-3a43-11ed-ae73-42010aa4000a",
+                "comment": "Vidar botnet C2 server (confidence level: 100%)",
+                "value": "146.19.233.108|80",
+                "Tag": [
+                    {
+                        "name": "Vidar",
+                        "colour": "#9258A7",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663829737,
+                "uuid": "906e7ef0-3a43-11ed-ae73-42010aa4000a",
+                "comment": "Vidar botnet C2 server (confidence level: 100%)",
+                "value": "45.89.55.118|80",
+                "Tag": [
+                    {
+                        "name": "Vidar",
+                        "colour": "#9258A7",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663829769,
+                "uuid": "a3100ad9-3a43-11ed-ae73-42010aa4000a",
+                "comment": "Vidar botnet C2 (confidence level: 100%)",
+                "value": "https://t.me/loveindiagood",
+                "Tag": [
+                    {
+                        "name": "Vidar",
+                        "colour": "#9258A7",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663829769,
+                "uuid": "a325c3a3-3a43-11ed-ae73-42010aa4000a",
+                "comment": "Vidar botnet C2 (confidence level: 100%)",
+                "value": "http://107.189.31.171/1340",
+                "Tag": [
+                    {
+                        "name": "Vidar",
+                        "colour": "#9258A7",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663829769,
+                "uuid": "a33de4fd-3a43-11ed-ae73-42010aa4000a",
+                "comment": "Vidar botnet C2 (confidence level: 100%)",
+                "value": "http://116.203.7.175/924",
+                "Tag": [
+                    {
+                        "name": "Vidar",
+                        "colour": "#9258A7",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663829769,
+                "uuid": "a3662a4f-3a43-11ed-ae73-42010aa4000a",
+                "comment": "Vidar botnet C2 (confidence level: 100%)",
+                "value": "http://45.89.55.118/",
+                "Tag": [
+                    {
+                        "name": "Vidar",
+                        "colour": "#9258A7",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663829769,
+                "uuid": "a37f6625-3a43-11ed-ae73-42010aa4000a",
+                "comment": "Vidar botnet C2 (confidence level: 100%)",
+                "value": "http://146.19.233.108/",
+                "Tag": [
+                    {
+                        "name": "Vidar",
+                        "colour": "#9258A7",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663830814,
+                "uuid": "123be870-3a46-11ed-ae73-42010aa4000a",
+                "comment": "Remcos botnet C2 domain (confidence level: 100%)",
+                "value": "mandingo.dvrlists.com",
+                "Tag": [
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "remcos",
+                        "colour": "#02EFA4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663830871,
+                "uuid": "3417c4d0-3a46-11ed-ae73-42010aa4000a",
+                "comment": "Remcos payload delivery URL (confidence level: 100%)",
+                "value": "http://209.127.20.13/boo.jpg",
+                "Tag": [
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "remcos",
+                        "colour": "#02EFA4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663830871,
+                "uuid": "344dc7a2-3a46-11ed-ae73-42010aa4000a",
+                "comment": "Remcos payload delivery URL (confidence level: 100%)",
+                "value": "http://209.127.20.13/boop.txt",
+                "Tag": [
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "remcos",
+                        "colour": "#02EFA4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663831054,
+                "uuid": "a155fa91-3a46-11ed-ae73-42010aa4000a",
+                "comment": "Remcos payload (confidence level: 100%)",
+                "value": "8938f080347aa0b5a42882e6c0262d32323fc6aa75810b2bbbd68467754c1a37",
+                "Tag": [
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "remcos",
+                        "colour": "#02EFA4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663831054,
+                "uuid": "a15e848f-3a46-11ed-ae73-42010aa4000a",
+                "comment": "Remcos payload (confidence level: 100%)",
+                "value": "110190c8c696f2e357a9445c1ca65a574fff65388d384b859de1a717b651ed7c",
+                "Tag": [
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "remcos",
+                        "colour": "#02EFA4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663831054,
+                "uuid": "a164096d-3a46-11ed-ae73-42010aa4000a",
+                "comment": "Remcos payload (confidence level: 100%)",
+                "value": "a4406d83070bdc0fbf29e5a81897d969bd1fda8e67e61f2033de4d57e784657d",
+                "Tag": [
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "remcos",
+                        "colour": "#02EFA4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663831054,
+                "uuid": "a16a34b7-3a46-11ed-ae73-42010aa4000a",
+                "comment": "Remcos payload (confidence level: 100%)",
+                "value": "2c4f201b5d5c1a61b803b1ee26ff0d782131e6aea39ab975c0f078c834c26677",
+                "Tag": [
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "remcos",
+                        "colour": "#02EFA4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663833088,
+                "uuid": "5dc0ffa6-3a4b-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 domain (confidence level: 100%)",
+                "value": "dkbillly.run",
+                "Tag": [
+                    {
+                        "name": "IcedID",
+                        "colour": "#F7A5E3",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663837232,
+                "uuid": "0354f523-3a55-11ed-ae73-42010aa4000a",
+                "comment": "NjRAT botnet C2 server (confidence level: 100%)",
+                "value": "51.103.25.183|5552",
+                "Tag": [
+                    {
+                        "name": "njrat",
+                        "colour": "#EB13BD",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663837250,
+                "uuid": "0e852f0e-3a55-11ed-ae73-42010aa4000a",
+                "comment": "Nanocore RAT botnet C2 server (confidence level: 100%)",
+                "value": "45.137.20.4|4984",
+                "Tag": [
+                    {
+                        "name": "NanoCore",
+                        "colour": "#11C6E4",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663840842,
+                "uuid": "6b0f5af5-3a5d-11ed-ae73-42010aa4000a",
+                "comment": "Ave Maria botnet C2 server (confidence level: 100%)",
+                "value": "20.126.95.155|7800",
+                "Tag": [
+                    {
+                        "name": "AveMairaRAT",
+                        "colour": "#1C4212",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663841657,
+                "uuid": "510d357f-3a5f-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 server (confidence level: 100%)",
+                "value": "213.252.244.62|80",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663841657,
+                "uuid": "5115b6e8-3a5f-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 server (confidence level: 100%)",
+                "value": "217.25.91.15|80",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663841657,
+                "uuid": "5122b778-3a5f-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 server (confidence level: 100%)",
+                "value": "5.161.155.121|80",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663841721,
+                "uuid": "776e0b73-3a5f-11ed-ae73-42010aa4000a",
+                "comment": "CryptBot botnet C2 (confidence level: 100%)",
+                "value": "http://dixevd32.top/gate.php",
+                "Tag": [
+                    {
+                        "name": "cryptbot",
+                        "colour": "#26933B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842170,
+                "uuid": "82c39b94-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://213.252.244.62/lib/freebl3.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842170,
+                "uuid": "82f72ae9-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://217.25.91.15/lib/freebl3.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842171,
+                "uuid": "832da04c-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://5.161.155.121/lib/freebl3.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842171,
+                "uuid": "8362d1fb-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://213.252.244.62/lib/mozglue.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842171,
+                "uuid": "83987e70-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://217.25.91.15/lib/mozglue.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842172,
+                "uuid": "83cedbf6-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://5.161.155.121/lib/mozglue.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842172,
+                "uuid": "8402c250-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://213.252.244.62/lib/nss3.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842172,
+                "uuid": "8435eee8-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://217.25.91.15/lib/nss3.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842173,
+                "uuid": "846dc023-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://5.161.155.121/lib/nss3.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842173,
+                "uuid": "84a3188c-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://213.252.244.62/lib/softokn3.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842173,
+                "uuid": "84d6bede-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://217.25.91.15/lib/softokn3.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842174,
+                "uuid": "850c0adf-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://5.161.155.121/lib/softokn3.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842174,
+                "uuid": "853e9c46-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://213.252.244.62/lib/sqlite3.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842174,
+                "uuid": "856f0039-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://217.25.91.15/lib/sqlite3.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842175,
+                "uuid": "85a53c4f-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://5.161.155.121/lib/sqlite3.dll",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842175,
+                "uuid": "85d7e246-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://213.252.244.62/winsock",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842175,
+                "uuid": "8608d503-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://217.25.91.15/winsock",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842176,
+                "uuid": "863c5df2-3a60-11ed-ae73-42010aa4000a",
+                "comment": "Lumma Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://5.161.155.121/winsock",
+                "Tag": [
+                    {
+                        "name": "Lumma",
+                        "colour": "#723900",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842407,
+                "uuid": "0fdff012-3a61-11ed-ae73-42010aa4000a",
+                "comment": "Vidar botnet C2 (confidence level: 100%)",
+                "value": "http://116.203.7.175/1680",
+                "Tag": [
+                    {
+                        "name": "Vidar",
+                        "colour": "#9258A7",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663842618,
+                "uuid": "8ddacc17-3a61-11ed-ae73-42010aa4000a",
+                "comment": "Azorult botnet C2 (confidence level: 75%)",
+                "value": "http://huizechina.co/pl341/index.php",
+                "Tag": [
+                    {
+                        "name": "AZORult",
+                        "colour": "#87684F",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663845639,
+                "uuid": "96a2408f-3a68-11ed-ae73-42010aa4000a",
+                "comment": "RedLine Stealer botnet C2 server (confidence level: 100%)",
+                "value": "95.182.120.55|81",
+                "Tag": [
+                    {
+                        "name": "RedLineStealer",
+                        "colour": "#07AA3E",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663845666,
+                "uuid": "a6895ee5-3a68-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "http://47.97.172.5:9988/pixel.gif",
+                "Tag": [
+                    {
+                        "name": "ALIBABA-CN-NET Hangzhou Alibaba Advertising Co.Ltd.",
+                        "colour": "#34BEC6",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663845954,
+                "uuid": "526e3eaa-3a69-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "https://a.daidu.co/jquery-3.3.1.min.js",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "Google LLC",
+                        "colour": "#FB8DC0",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663845978,
+                "uuid": "60c31996-3a69-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "34.92.131.12|443",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "Google LLC",
+                        "colour": "#FB8DC0",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663846101,
+                "uuid": "aa13dee3-3a69-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "104.168.9.195|8082",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "ColoCrossing",
+                        "colour": "#A55D98",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663846216,
+                "uuid": "ee3a31d5-3a69-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "https://45.116.166.143/dpixel",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "GIGABIT-MY Gigabit Hosting Sdn Bhd",
+                        "colour": "#BA5F60",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663846314,
+                "uuid": "289c2705-3a6a-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "http://138.2.87.40:808/j.ad",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "ORACLE-BMC-31898",
+                        "colour": "#F41551",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663849070,
+                "uuid": "934ee25f-3a70-11ed-ae73-42010aa4000a",
+                "comment": "Alien botnet C2 (confidence level: 80%)",
+                "value": "http://194.163.184.177",
+                "Tag": [
+                    {
+                        "name": "Alien",
+                        "colour": "#55D664",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "apk",
+                        "colour": "#B9BFE4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663849079,
+                "uuid": "992777ba-3a70-11ed-ae73-42010aa4000a",
+                "comment": "Alien botnet C2 (confidence level: 80%)",
+                "value": "http://hayannsidfmosa.shop",
+                "Tag": [
+                    {
+                        "name": "Alien",
+                        "colour": "#55D664",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "apk",
+                        "colour": "#B9BFE4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663849082,
+                "uuid": "9a894174-3a70-11ed-ae73-42010aa4000a",
+                "comment": "Alien botnet C2 (confidence level: 80%)",
+                "value": "https://poomerianskaanwoerld.tk",
+                "Tag": [
+                    {
+                        "name": "Alien",
+                        "colour": "#55D664",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "apk",
+                        "colour": "#B9BFE4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663850109,
+                "uuid": "ff10705b-3a72-11ed-ae73-42010aa4000a",
+                "comment": "Mirai botnet C2 server (confidence level: 75%)",
+                "value": "185.252.178.48|56999",
+                "Tag": [
+                    {
+                        "name": "Mirai",
+                        "colour": "#38A8DA",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663851415,
+                "uuid": "09864201-3a76-11ed-ae73-42010aa4000a",
+                "comment": "RecordBreaker botnet C2 (confidence level: 100%)",
+                "value": "http://167.172.152.136/",
+                "Tag": [
+                    {
+                        "name": "recordbreaker",
+                        "colour": "#8E5E8B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663852227,
+                "uuid": "ed33e59d-3a77-11ed-ae73-42010aa4000a",
+                "comment": "RedLine Stealer botnet C2 server (confidence level: 100%)",
+                "value": "49.51.90.156|32323",
+                "Tag": [
+                    {
+                        "name": "RedLineStealer",
+                        "colour": "#07AA3E",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663853152,
+                "uuid": "147c717e-3a7a-11ed-ae73-42010aa4000a",
+                "comment": "AsyncRAT botnet C2 server (confidence level: 100%)",
+                "value": "85.31.46.207|8808",
+                "Tag": [
+                    {
+                        "name": "asyncrat",
+                        "colour": "#A21BA3",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663853425,
+                "uuid": "b72ebf6b-3a7a-11ed-ae73-42010aa4000a",
+                "comment": "AsyncRAT botnet C2 server (confidence level: 75%)",
+                "value": "85.31.46.207|6606",
+                "Tag": [
+                    {
+                        "name": "asyncrat",
+                        "colour": "#A21BA3",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663853426,
+                "uuid": "b7bf89fe-3a7a-11ed-ae73-42010aa4000a",
+                "comment": "AsyncRAT botnet C2 server (confidence level: 75%)",
+                "value": "85.31.46.207|7707",
+                "Tag": [
+                    {
+                        "name": "asyncrat",
+                        "colour": "#A21BA3",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663854392,
+                "uuid": "f79dc30b-3a7c-11ed-ae73-42010aa4000a",
+                "comment": "Ave Maria botnet C2 server (confidence level: 100%)",
+                "value": "159.223.57.212|4110",
+                "Tag": [
+                    {
+                        "name": "AveMariaRAT",
+                        "colour": "#7B5B31",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663854394,
+                "uuid": "f900af76-3a7c-11ed-ae73-42010aa4000a",
+                "comment": "BitRAT botnet C2 server (confidence level: 100%)",
+                "value": "159.223.57.212|8471",
+                "Tag": [
+                    {
+                        "name": "BitRAT",
+                        "colour": "#C021A3",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663855206,
+                "uuid": "dcf9297d-3a7e-11ed-ae73-42010aa4000a",
+                "comment": "Mirai botnet C2 server (confidence level: 75%)",
+                "value": "204.76.203.7|1337",
+                "Tag": [
+                    {
+                        "name": "Mirai",
+                        "colour": "#38A8DA",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663855593,
+                "uuid": "c3733e90-3a7f-11ed-ae73-42010aa4000a",
+                "comment": "QakBot payload (confidence level: 100%)",
+                "value": "308e04792e9d67d7f35a9437b2ced36a8bcae21d1871ca3e367f7be38eec767d",
+                "Tag": [
+                    {
+                        "name": "1663698873",
+                        "colour": "#31A3DD",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "bb",
+                        "colour": "#BF1688",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "QakBot",
+                        "colour": "#6CA981",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "qbot",
+                        "colour": "#B2491B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "Quakbot",
+                        "colour": "#BFE69F",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "sha256",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663855593,
+                "uuid": "c380eaad-3a7f-11ed-ae73-42010aa4000a",
+                "comment": "QakBot payload (confidence level: 100%)",
+                "value": "548d26386eec5d6a45acbfc0f518767e977a7378630929f82e659957da525e26",
+                "Tag": [
+                    {
+                        "name": "1663698873",
+                        "colour": "#31A3DD",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "bb",
+                        "colour": "#BF1688",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "QakBot",
+                        "colour": "#6CA981",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "qbot",
+                        "colour": "#B2491B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "Quakbot",
+                        "colour": "#BFE69F",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663855623,
+                "uuid": "d58a21e3-3a7f-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "https://fileson.cloud/sync/bu-hkfn9jxpmed8b2dhzg2bwvc",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "SPOTNET_LTD",
+                        "colour": "#E32F27",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663855624,
+                "uuid": "d61f569d-3a7f-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "93.157.86.27|443",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "SPOTNET_LTD",
+                        "colour": "#E32F27",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663855654,
+                "uuid": "e834c71f-3a7f-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "https://47.242.197.134/dpixel",
+                "Tag": [
+                    {
+                        "name": "ALIBABA-CN-NET Alibaba US Technology Co. Ltd.",
+                        "colour": "#22F387",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663855655,
+                "uuid": "e8a0661a-3a7f-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "47.242.197.134|443",
+                "Tag": [
+                    {
+                        "name": "ALIBABA-CN-NET Alibaba US Technology Co. Ltd.",
+                        "colour": "#22F387",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663855742,
+                "uuid": "1c61d746-3a80-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "http://180.76.128.244/updates.rss",
+                "Tag": [
+                    {
+                        "name": "BAIDU Beijing Baidu Netcom Science and Technology Co. Ltd.",
+                        "colour": "#6A641C",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663855743,
+                "uuid": "1cc5edd0-3a80-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "180.76.128.244|80",
+                "Tag": [
+                    {
+                        "name": "BAIDU Beijing Baidu Netcom Science and Technology Co. Ltd.",
+                        "colour": "#6A641C",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663855769,
+                "uuid": "2c6029e0-3a80-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "http://1.14.93.219:1234/activity",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663855834,
+                "uuid": "53537bad-3a80-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "https://alexflima.com.br/oscp/",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "DIGITALOCEAN-ASN",
+                        "colour": "#CA12B4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663855836,
+                "uuid": "545bc358-3a80-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "164.90.141.136|443",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "DIGITALOCEAN-ASN",
+                        "colour": "#CA12B4",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663855857,
+                "uuid": "61033381-3a80-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "http://109.107.170.4/cm",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "MIRHOSTING",
+                        "colour": "#B1D745",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663855858,
+                "uuid": "61aec33c-3a80-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "109.107.170.4|80",
+                "Tag": [
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "MIRHOSTING",
+                        "colour": "#B1D745",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663855995,
+                "uuid": "b353ca80-3a80-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "http://114.115.237.107/activity",
+                "Tag": [
+                    {
+                        "name": "CHINA169-BJ China Unicom Beijing Province Network",
+                        "colour": "#82016F",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663855996,
+                "uuid": "b3d2814c-3a80-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "114.115.237.107|80",
+                "Tag": [
+                    {
+                        "name": "CHINA169-BJ China Unicom Beijing Province Network",
+                        "colour": "#82016F",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663856172,
+                "uuid": "1c8b2cc8-3a81-11ed-ae73-42010aa4000a",
+                "comment": "Azorult botnet C2 (confidence level: 75%)",
+                "value": "http://gwinaz.pro/pl341/index.php",
+                "Tag": [
+                    {
+                        "name": "AZORult",
+                        "colour": "#87684F",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663859715,
+                "uuid": "5ca45852-3a89-11ed-ae73-42010aa4000a",
+                "comment": "Azorult botnet C2 (confidence level: 75%)",
+                "value": "http://bl3ds2.shop/pl341/index.php",
+                "Tag": [
+                    {
+                        "name": "AZORult",
+                        "colour": "#87684F",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663860317,
+                "uuid": "c35d3491-3a8a-11ed-ae73-42010aa4000a",
+                "comment": "Azorult botnet C2 (confidence level: 75%)",
+                "value": "http://ichgh.com/mk/index.php",
+                "Tag": [
+                    {
+                        "name": "AZORult",
+                        "colour": "#87684F",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663863329,
+                "uuid": "c67f0dc3-3a91-11ed-ae73-42010aa4000a",
+                "comment": "TeamBot botnet C2 (confidence level: 100%)",
+                "value": "http://winnlinne.com/lancer/get.php",
+                "Tag": [
+                    {
+                        "name": "TeamBot",
+                        "colour": "#0686BE",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663863912,
+                "uuid": "21e7263f-3a93-11ed-ae73-42010aa4000a",
+                "comment": "Vidar botnet C2 server (confidence level: 100%)",
+                "value": "213.252.246.218|80",
+                "Tag": [
+                    {
+                        "name": "Vidar",
+                        "colour": "#9258A7",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663863915,
+                "uuid": "23a181cc-3a93-11ed-ae73-42010aa4000a",
+                "comment": "Vidar botnet C2 (confidence level: 100%)",
+                "value": "http://213.252.246.218/",
+                "Tag": [
+                    {
+                        "name": "Vidar",
+                        "colour": "#9258A7",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663864829,
+                "uuid": "44adc1bd-3a95-11ed-ae73-42010aa4000a",
+                "comment": "NjRAT botnet C2 server (confidence level: 100%)",
+                "value": "35.157.111.131|12392",
+                "Tag": [
+                    {
+                        "name": "njrat",
+                        "colour": "#EB13BD",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663865015,
+                "uuid": "b34dbf23-3a95-11ed-ae73-42010aa4000a",
+                "comment": "QakBot botnet C2 server (confidence level: 100%)",
+                "value": "134.35.8.88|443",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663865015,
+                "uuid": "b387ce22-3a95-11ed-ae73-42010aa4000a",
+                "comment": "QakBot botnet C2 server (confidence level: 100%)",
+                "value": "41.97.152.42|443",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663865015,
+                "uuid": "b3a0fa2f-3a95-11ed-ae73-42010aa4000a",
+                "comment": "QakBot botnet C2 server (confidence level: 100%)",
+                "value": "41.111.74.35|995",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663865016,
+                "uuid": "b3ec92c5-3a95-11ed-ae73-42010aa4000a",
+                "comment": "QakBot botnet C2 server (confidence level: 100%)",
+                "value": "105.156.139.150|443",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663865016,
+                "uuid": "b3f493da-3a95-11ed-ae73-42010aa4000a",
+                "comment": "QakBot botnet C2 server (confidence level: 100%)",
+                "value": "217.165.68.59|993",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663865016,
+                "uuid": "b4451873-3a95-11ed-ae73-42010aa4000a",
+                "comment": "QakBot botnet C2 server (confidence level: 100%)",
+                "value": "111.125.157.230|443",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663865017,
+                "uuid": "b4727c9b-3a95-11ed-ae73-42010aa4000a",
+                "comment": "QakBot botnet C2 server (confidence level: 100%)",
+                "value": "125.25.129.70|443",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663866905,
+                "uuid": "1a3c27f5-3a9a-11ed-ae73-42010aa4000a",
+                "comment": "Mirai botnet C2 server (confidence level: 75%)",
+                "value": "103.161.174.5|3778",
+                "Tag": [
+                    {
+                        "name": "Mirai",
+                        "colour": "#38A8DA",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663869631,
+                "uuid": "7324ce63-3aa0-11ed-ae73-42010aa4000a",
+                "comment": "RedLine Stealer botnet C2 (confidence level: 100%)",
+                "value": "http://kelioni.xyz/iremotepanel",
+                "Tag": [
+                    {
+                        "name": "RedLineStealer",
+                        "colour": "#07AA3E",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663869632,
+                "uuid": "736d5778-3aa0-11ed-ae73-42010aa4000a",
+                "comment": "RedLine Stealer botnet C2 server (confidence level: 100%)",
+                "value": "192.64.119.233|80",
+                "Tag": [
+                    {
+                        "name": "RedLineStealer",
+                        "colour": "#07AA3E",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "md5",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663870121,
+                "uuid": "9729787a-3aa1-11ed-ae73-42010aa4000a",
+                "comment": "Kutaki payload (confidence level: 50%)",
+                "value": "6a4ee0ab3240bb566273aa968cea51d4",
+                "Tag": []
+            },
+            {
+                "type": "md5",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663870603,
+                "uuid": "b63c428a-3aa2-11ed-ae73-42010aa4000a",
+                "comment": "LokiBot payload (confidence level: 50%)",
+                "value": "d91cfe1a42899f7ba97b820746184cb1",
+                "Tag": []
+            },
+            {
+                "type": "md5",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663870603,
+                "uuid": "b641f03d-3aa2-11ed-ae73-42010aa4000a",
+                "comment": "LokiBot payload (confidence level: 50%)",
+                "value": "6f2ad08514a304c31b1a7ad3cd6b8892",
+                "Tag": []
+            },
+            {
+                "type": "md5",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663871067,
+                "uuid": "cac61e58-3aa3-11ed-ae73-42010aa4000a",
+                "comment": "Xloader payload (confidence level: 50%)",
+                "value": "3584af4c7ff3061dc605bfc0de9d478d",
+                "Tag": []
+            },
+            {
+                "type": "md5",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663871067,
+                "uuid": "cacab11e-3aa3-11ed-ae73-42010aa4000a",
+                "comment": "Xloader payload (confidence level: 50%)",
+                "value": "4c241b465dca3cdb136375d91df76180",
+                "Tag": []
+            },
+            {
+                "type": "md5",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663871067,
+                "uuid": "cacf8be5-3aa3-11ed-ae73-42010aa4000a",
+                "comment": "Xloader payload (confidence level: 50%)",
+                "value": "a3699c28f0868421d041f295534a8b87",
+                "Tag": []
+            },
+            {
+                "type": "md5",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663871067,
+                "uuid": "cad4ad35-3aa3-11ed-ae73-42010aa4000a",
+                "comment": "Xloader payload (confidence level: 50%)",
+                "value": "9a864a23da20a972ac73fd9bb7fa02a3",
+                "Tag": []
+            },
+            {
+                "type": "md5",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663871067,
+                "uuid": "cad8bbda-3aa3-11ed-ae73-42010aa4000a",
+                "comment": "Xloader payload (confidence level: 50%)",
+                "value": "70cfa5167777582bdeeadb50e056a9a6",
+                "Tag": []
+            },
+            {
+                "type": "md5",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "timestamp": 1663871067,
+                "uuid": "cadc834b-3aa3-11ed-ae73-42010aa4000a",
+                "comment": "Xloader payload (confidence level: 50%)",
+                "value": "ed2d2389bedce5b1292b4bc0d38a099c",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663872628,
+                "uuid": "6d87c755-3aa7-11ed-ae73-42010aa4000a",
+                "comment": "RedLine Stealer botnet C2 server (confidence level: 100%)",
+                "value": "185.183.35.100|44687",
+                "Tag": [
+                    {
+                        "name": "RedLineStealer",
+                        "colour": "#07AA3E",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663874431,
+                "uuid": "9fd13861-3aab-11ed-ae73-42010aa4000a",
+                "comment": "Houdini botnet C2 (confidence level: 100%)",
+                "value": "http://goods.camdvr.org:2888/moz-sdk",
+                "Tag": [
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "WSHRAT",
+                        "colour": "#11E8BE",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663874433,
+                "uuid": "a132d472-3aab-11ed-ae73-42010aa4000a",
+                "comment": "Houdini botnet C2 (confidence level: 100%)",
+                "value": "http://goods.camdvr.org:2888/ie",
+                "Tag": [
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "WSHRAT",
+                        "colour": "#11E8BE",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663874434,
+                "uuid": "a1b9ef2f-3aab-11ed-ae73-42010aa4000a",
+                "comment": "Houdini botnet C2 (confidence level: 100%)",
+                "value": "http://goods.camdvr.org:2888/give-me-chpv",
+                "Tag": [
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "WSHRAT",
+                        "colour": "#11E8BE",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663874435,
+                "uuid": "a239a677-3aab-11ed-ae73-42010aa4000a",
+                "comment": "Houdini botnet C2 (confidence level: 100%)",
+                "value": "http://goods.camdvr.org:2888/give-me-ffpv",
+                "Tag": [
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "WSHRAT",
+                        "colour": "#11E8BE",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663875330,
+                "uuid": "b7f5465e-3aad-11ed-ae73-42010aa4000a",
+                "comment": "DCRat botnet C2 (confidence level: 100%)",
+                "value": "http://u1638884.plsk.regruhosting.ru/pipeauthasync.php",
+                "Tag": [
+                    {
+                        "name": "dcrat",
+                        "colour": "#661967",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663877737,
+                "uuid": "5250c166-3ab3-11ed-ae73-42010aa4000a",
+                "comment": "NjRAT botnet C2 server (confidence level: 100%)",
+                "value": "141.255.147.80|19444",
+                "Tag": [
+                    {
+                        "name": "njrat",
+                        "colour": "#EB13BD",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663878036,
+                "uuid": "04e2491c-3ab4-11ed-ae73-42010aa4000a",
+                "comment": "DCRat botnet C2 (confidence level: 100%)",
+                "value": "http://83.220.175.103/line/wordpress/packetautheternaldatalife/vmtestexternaldatalife/geo8/6php/cpu7linux/3protonvoiddb/6multiapi/traffic3python/datalife/0/mariadbsecurelinetraffic/tempasyncupdatecentral/12generator/longpollauth/datalifesql/privatepoll0poll/serverdefaulttrackdle.php",
+                "Tag": [
+                    {
+                        "name": "dcrat",
+                        "colour": "#661967",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663879800,
+                "uuid": "1fe06aee-3ab8-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 server (confidence level: 75%)",
+                "value": "45.66.248.79|443",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663879800,
+                "uuid": "2009acda-3ab8-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 server (confidence level: 75%)",
+                "value": "176.31.143.96|443",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663879800,
+                "uuid": "2030337b-3ab8-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 server (confidence level: 75%)",
+                "value": "172.93.201.139|443",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663879801,
+                "uuid": "207ce5ba-3ab8-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 server (confidence level: 75%)",
+                "value": "5.252.177.103|443",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663879801,
+                "uuid": "20db9c54-3ab8-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 server (confidence level: 75%)",
+                "value": "5.255.104.143|443",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663879801,
+                "uuid": "20f9a5ff-3ab8-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 server (confidence level: 75%)",
+                "value": "185.16.40.111|443",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663879802,
+                "uuid": "2130a388-3ab8-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 server (confidence level: 75%)",
+                "value": "66.63.188.70|443",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663879803,
+                "uuid": "21abee36-3ab8-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 server (confidence level: 75%)",
+                "value": "103.208.85.95|443",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663879803,
+                "uuid": "21d98912-3ab8-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 server (confidence level: 75%)",
+                "value": "79.110.52.169|443",
+                "Tag": []
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663879862,
+                "uuid": "44e6c85c-3ab8-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "103.45.66.85|8080",
+                "Tag": [
+                    {
+                        "name": "BCPL-SG BGPNET Global ASN",
+                        "colour": "#3CB266",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663880133,
+                "uuid": "e690b8dd-3ab8-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "https://3.238.186.201/owa/klu1whaevo2ntykjx8ymezya0w5x0nh",
+                "Tag": [
+                    {
+                        "name": "AMAZON-AES",
+                        "colour": "#6825D4",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663880135,
+                "uuid": "e7a2f466-3ab8-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "3.238.186.201|443",
+                "Tag": [
+                    {
+                        "name": "AMAZON-AES",
+                        "colour": "#6825D4",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663882241,
+                "uuid": "cf08b524-3abd-11ed-ae73-42010aa4000a",
+                "comment": "Ghost RAT botnet C2 server (confidence level: 100%)",
+                "value": "183.236.2.18|1980",
+                "Tag": [
+                    {
+                        "name": "Gh0stRAT",
+                        "colour": "#71FFB3",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663882378,
+                "uuid": "20eaad98-3abe-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "http://84.32.188.232/visit.js",
+                "Tag": [
+                    {
+                        "name": "CHERRYSERVERS2-AS",
+                        "colour": "#0B8654",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663882379,
+                "uuid": "2147bbe5-3abe-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 server (confidence level: 100%)",
+                "value": "84.32.188.232|443",
+                "Tag": [
+                    {
+                        "name": "CHERRYSERVERS2-AS",
+                        "colour": "#0B8654",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663883453,
+                "uuid": "a1475a45-3ac0-11ed-ae73-42010aa4000a",
+                "comment": "Loki Password Stealer (PWS) botnet C2 (confidence level: 100%)",
+                "value": "http://91.223.82.29/~septt165/francob/fred.php",
+                "Tag": [
+                    {
+                        "name": "Loki",
+                        "colour": "#D74EDE",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663883602,
+                "uuid": "fa35dab3-3ac0-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 domain (confidence level: 100%)",
+                "value": "trallfasterinf.com",
+                "Tag": [
+                    {
+                        "name": "1526646620",
+                        "colour": "#C598E7",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "bokbot",
+                        "colour": "#5ADA84",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "IcedID",
+                        "colour": "#F7A5E3",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663883602,
+                "uuid": "fa3f52b6-3ac0-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 domain (confidence level: 100%)",
+                "value": "antiflamez.bar",
+                "Tag": [
+                    {
+                        "name": "1526646620",
+                        "colour": "#C598E7",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "bokbot",
+                        "colour": "#5ADA84",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "IcedID",
+                        "colour": "#F7A5E3",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663883602,
+                "uuid": "fa45fa6b-3ac0-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 domain (confidence level: 100%)",
+                "value": "erinindiaka.quest",
+                "Tag": [
+                    {
+                        "name": "1526646620",
+                        "colour": "#C598E7",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "bokbot",
+                        "colour": "#5ADA84",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "IcedID",
+                        "colour": "#F7A5E3",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663883602,
+                "uuid": "fa4cb688-3ac0-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 domain (confidence level: 100%)",
+                "value": "considerf.info",
+                "Tag": [
+                    {
+                        "name": "1526646620",
+                        "colour": "#C598E7",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "bokbot",
+                        "colour": "#5ADA84",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "IcedID",
+                        "colour": "#F7A5E3",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663883602,
+                "uuid": "fa52bd7d-3ac0-11ed-ae73-42010aa4000a",
+                "comment": "IcedID botnet C2 domain (confidence level: 100%)",
+                "value": "choifejuce.lol",
+                "Tag": [
+                    {
+                        "name": "1526646620",
+                        "colour": "#C598E7",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "bokbot",
+                        "colour": "#5ADA84",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "IcedID",
+                        "colour": "#F7A5E3",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663883747,
+                "uuid": "50a2c109-3ac1-11ed-ae73-42010aa4000a",
+                "comment": "Nanocore RAT botnet C2 server (confidence level: 100%)",
+                "value": "192.169.69.26|1994",
+                "Tag": [
+                    {
+                        "name": "NanoCore",
+                        "colour": "#11C6E4",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663884045,
+                "uuid": "020a4209-3ac2-11ed-ae73-42010aa4000a",
+                "comment": "Quasar RAT botnet C2 server (confidence level: 100%)",
+                "value": "27.72.56.186|9782",
+                "Tag": [
+                    {
+                        "name": "QuasarRAT",
+                        "colour": "#A6C476",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "RAT",
+                        "colour": "#8B3E7F",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "ip-dst|port",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663885532,
+                "uuid": "7862c81c-3ac5-11ed-ae73-42010aa4000a",
+                "comment": "RedLine Stealer botnet C2 server (confidence level: 100%)",
+                "value": "185.117.75.208|80",
+                "Tag": [
+                    {
+                        "name": "RedLineStealer",
+                        "colour": "#07AA3E",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663888384,
+                "uuid": "1c88adeb-3acc-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "http://121.199.25.133:8081/cm",
+                "Tag": [
+                    {
+                        "name": "Beacon",
+                        "colour": "#4A4665",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "Cobalt Strike",
+                        "colour": "#50B33D",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            },
+            {
+                "type": "url",
+                "category": "Network activity",
+                "to_ids": true,
+                "timestamp": 1663888384,
+                "uuid": "1cd20f57-3acc-11ed-ae73-42010aa4000a",
+                "comment": "Cobalt Strike botnet C2 (confidence level: 100%)",
+                "value": "http://121.199.25.133:8081/submit.php",
+                "Tag": [
+                    {
+                        "name": "Beacon",
+                        "colour": "#4A4665",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "Cobalt Strike",
+                        "colour": "#50B33D",
+                        "exportable": true,
+                        "hide_tag": false
+                    },
+                    {
+                        "name": "CobaltStrike",
+                        "colour": "#609B4B",
+                        "exportable": true,
+                        "hide_tag": false
+                    }
+                ]
+            }
+        ]
+    }
+}

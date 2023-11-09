@@ -1,0 +1,3 @@
+{
+  "coap://[fd00::212:4b00:1003:4ce4]/*": { "oscore": { "contextfile": "a/" } }
+}
